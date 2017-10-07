@@ -1,0 +1,7 @@
+.skills{
+    display: flex;
+} 
+
+.left{
+    flex-basis: 200px;
+}
