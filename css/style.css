@@ -1,22 +1,57 @@
-.skills {
-  display: flex;
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
 }
 
-.left {
-  flex-basis: 200px;
+p {
+  line-height: 2rem;
 }
 
-.formContainer .form-btn {
-  height: 35px;
-  border-radius: 5px;
-  border: 1px dotted #009688;
-  cursor: pointer;
-  transition: all 0.2s;
-  color: #757575;
+.button-collapse {
+  color: #26a69a;
 }
 
-.formContainer .form-btn:hover {
-  background-color: #009688;
-  color: #fff;
-  cursor: pointer;
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
 }
