@@ -8,16 +8,24 @@
 
  .parallax{
   background: #000;
-	overflow: hidden;
+  overflow: hidden;
+  
  }
  canvas {
 	display: block;	
 }
 
+.profileDiv{
+  display: flex;
+  justify-content: center;
+}
 .profile{
-  height: 200px;
-  width: 200px;
-  
+  /* height: 200px;
+  width: 200px; */
+  transform: scale(0.8);
+  /* justify-content: center; */
+
+
 }
 nav ul a,
 nav .brand-logo {
