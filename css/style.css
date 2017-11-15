@@ -6,6 +6,19 @@
  * Made By MaterializeCSS.com
  */
 
+ .parallax{
+  background: #000;
+	overflow: hidden;
+ }
+ canvas {
+	display: block;	
+}
+
+.profile{
+  height: 200px;
+  width: 200px;
+  
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
