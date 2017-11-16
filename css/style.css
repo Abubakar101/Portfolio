@@ -27,6 +27,18 @@
 
 
 }
+.summaryText{
+  display: flex;
+}
+.quote{
+  transform: scaleX(-1);
+}
+
+.summary{
+  position: relative;
+  top: 27%;
+  margin-bottom: 0%;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
