@@ -94,6 +94,7 @@
 }
 
 
+
 #allProjects{
   background: rebeccapurple;
   max-width: 100%;
@@ -139,6 +140,36 @@ p {
     top: 0;
   }
 }
+
+#git, #linkedin, #phone, #email{
+  display: flex;
+  align-items: center;
+}
+
+#phone, #email{
+  cursor: text;
+}
+
+.contactLinks{
+  width: 86%;
+}
+
+
+.formContainer .form-btn {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px dotted #009688;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #757575;
+}
+
+.formContainer .form-btn:hover {
+  background-color: #009688;
+  color: #fff;
+  cursor: pointer;
+}
+
 
 .icon-block {
   padding: 0 15px;
