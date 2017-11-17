@@ -71,11 +71,18 @@
 .css-container img{
   width: 88% !important;
 }
+
+.materialize-container{
+  width: 28% !important;
+}
 .projectMenu li a{
   font-size: large;
 }
 
-
+.projectTracking{
+  display: flex;
+  align-items: center;
+}
 .projectImages {
   max-height: 263px;
   object-fit: cover;
