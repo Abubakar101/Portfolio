@@ -42,7 +42,7 @@
 
 
 
-#logos img {
+.logos img {
   height:auto;
   max-width: 100%;
   padding: 10px;
@@ -54,6 +54,22 @@
 
 .jquery-container{
   width: 14.7% !important;
+}
+
+
+/* .git-container{
+  position: relative;
+  bottom: -20px;
+  left: -66% !important;
+  width: 15% !important;
+} */
+
+.sql-container img{
+  width: 95%;
+}
+
+.css-container img{
+  width: 88% !important;
 }
 .projectMenu li a{
   font-size: large;
