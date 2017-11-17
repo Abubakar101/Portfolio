@@ -39,6 +39,45 @@
   top: 27%;
   margin-bottom: 0%;
 }
+
+
+
+#logos img {
+  height:auto;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.rubyOnRails-container{
+  width: 13.5% !important;
+}
+
+.jquery-container{
+  width: 14.7% !important;
+}
+.projectMenu li a{
+  font-size: large;
+}
+
+
+.projectImages {
+  max-height: 263px;
+  object-fit: cover;
+  display: inline-block;
+}
+.projectImages.materialized.active {
+  max-height: none;
+  object-fit: none;
+}
+
+
+#allProjects{
+  background: rebeccapurple;
+  max-width: 100%;
+  padding: 13px;
+  margin: 0 auto;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
