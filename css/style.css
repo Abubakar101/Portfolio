@@ -96,18 +96,41 @@
 
 
 .projectImages{
-  border: 0.5px solid white;
+  border: 0.5px solid black;
   border-radius: 1%;
 }
-.projectImages:hover{
+
+.projectDivs:hover{
   box-shadow: 0 8px 17px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(236, 236, 236, 0.19);
-  transform: scale(1.04);
-  -webkit-transition:  all 0.1s ease-in-out;
-  -moz-transition:  all 0.1s ease-in-out;
-  transition:  all 0.1s ease-in-out;
+  -webkit-transition:  all 0.2s ease-in-out;
+  -moz-transition:  all 0.2s ease-in-out;
+  transition:  all 0.2s ease-in-out;
+  max-height: 260px;
+border: 1px solid beige;
 }
 
+.projectDivs:hover  .projectImages{
+ opacity: 0;
+ -webkit-transition:  all 0.5s ease-in-out;
+ -moz-transition:  all 0.5s ease-in-out;
+ transition:  all 0.5s ease-in-out;
+}
+.projectDivs:hover  .projectText{
+  transform: translate(0%,-106%);
+}
+.projectText{
+display: none;
+/* border: 1px solid beige; */
+min-height: 250px;
+}
+.projectText p{
+  line-height: 1.8rem;
+}
 
+.projectDivs:hover  .projectText{
+  display: block;
+  
+}
 
 nav ul a,
 nav .brand-logo {
