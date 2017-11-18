@@ -95,12 +95,19 @@
 
 
 
-#allProjects{
-  background: rebeccapurple;
-  max-width: 100%;
-  padding: 13px;
-  margin: 0 auto;
+.projectImages{
+  border: 0.5px solid white;
+  border-radius: 1%;
 }
+.projectImages:hover{
+  box-shadow: 0 8px 17px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(236, 236, 236, 0.19);
+  transform: scale(1.04);
+  -webkit-transition:  all 0.1s ease-in-out;
+  -moz-transition:  all 0.1s ease-in-out;
+  transition:  all 0.1s ease-in-out;
+}
+
+
 
 nav ul a,
 nav .brand-logo {
