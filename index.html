@@ -1,191 +1,575 @@
-<!-- W3 School HTML Template -->
 <!DOCTYPE html>
-<html>
-<title>Muhammad Abubakar</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="./css/style.css">
-<style>
-  html,
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Roboto", sans-serif
-  }
-</style>
+<html lang="en">
 
-<body class="w3-light-grey">
-  <!-- Page Container -->
-  <div class="w3-content w3-margin-top" style="max-width:1400px;">
-    <!-- The Grid -->
-    <div class="w3-row-padding">
-      <!-- Left Column -->
-      <div class="w3-third">
-        <div class="w3-white w3-text-grey w3-card-4">
-          <div class="w3-display-container">
-            <img src="./assets/profile.png" style="width:100%" alt="Avatar">
-            <div class="w3-display-bottomleft w3-container w3-text-black">
-              <h2>Muhammad Abubakar</h2>
-            </div>
-          </div>
-          <div class="w3-container">
-            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Software Engineer | Full-Stack Developer
-            </p>
-            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Brooklyn, NY</p>
-            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="mailto:muhammadabubakar0419@gmail.com?subject=From Portfolio">muhammadabubakar0419@gmail.com</a></p>
-            <p><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://github.com/Abubakar101"
-                target="_blank">github.com/Abubakar101</a></p>
-            <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://www.linkedin.com/in/mrabu"
-                target="_blank">linkedin.com/in/mrabu</a></p>
-            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+1 (347) 596-2978</p>
-            <hr>
-            <!-- Skills -->
-            <div class="skills">
-              <div class="left">
-                <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-                <p>Javascript</p>
-                <p>Node.js</p>
-                <p>React.js</p>
-                <p>PostgreSQL</p>
-                <p>Ruby on Rails</p>
-                <p>Express.js</p>
-                <p>HTML/CSS</p>
-                <p>JQuery</p>
-                <p>Ruby</p>
-                <p>Github</p>
-              </div>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muhammad Abubakar</title>
 
-              <div class="right">
-                <p class="w3-large"><b style="visibility:hidden;">Other Skills</b></p>
-                <p>Interpersonal Communication</p>
-                <p>Team Management</p>
-                <p>Public Speaking</p>
-                <p>E-Commerce</p>
-                <p>Event Planning</p>
-                <p>Entrepreneurship</p>
-                <p>Time Management</p>
-                <p>Customer Service</p>
-                <p>Web Hosting</p>
-                <p>Sales</p>
-              </div>
-            </div>
+  <!-- CSS  -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
 
-            <!-- Languages -->
-            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-            <p>English</p>
-            <p>Urdu</p>
-            <br>
-          </div>
-        </div><br>
-        <!-- End Left Column -->
-      </div>
+<body>
+  <!-- Home -->
+  <nav id="home" class="white scrollspy" role="navigation">
+    <div class="nav-wrapper container">
+      <!-- <a id="logo-container" href="#" class="brand-logo">Logo</a> -->
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
 
-      <!-- Right Column -->
-      <div class="w3-twothird">
-        <!-- Projects -->
-        <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>ToDo APP</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-github fa-fw w3-margin-right"></i><a href="https://github.com/Abubakar101/TodoApp" target="_blank">See on Github</a></h6>
-            <p>ToDo app which lets you save your todo list one by one. You can add, edit and delete your list and you can also categorize them for your convenience. There is a login and registration option, so each user has his/her own privacy. And whenever you are done with todo item, you can change the status and/or delete it permanently. It uses Ruby on Rails, Javascript, HTML and CSS</p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Music Monster</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-github fa-fw w3-margin-right"></i><a href="https://github.com/MistyMen/musicMonster" target="_blank">See on Github</a></h6>
-            <p>It is is a playlist manager, that lets you save and manage your favorite artists albums. It lets you search for artists using the Spotify API and save their albums to the database. You can play a clip on your browser from the Music Monster app. It was a week group-project with team of 4. We used Node.js, React.js, Third-party API, our own API from Database, and of course HTML and CSS with react-burger-menu.</p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Tweedr App</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-github fa-fw w3-margin-right"></i><a href="https://github.com/Abubakar101/Tweeder_App" target="_blank">See on Github</a></h6>
-            <p>It is an app similar to the idea of twitter.com and it allows the user to insert their posts - plus, the time of post is inserted automatically with each post.  It has a combination of both front and back end. It was built with the group of 4, using Node.js, React, CSS, JSX.</p><br>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Car Racing Game</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-github fa-fw w3-margin-right"></i><a href="https://github.com/Abubakar101/racer" target="_blank">See on Github</a></h6>
-            <p>It is a two players car game where two users can compete and play with each other for the best score that is achieved by the timer. There are two timers; one is count down from “5,4,3,2,1 - Start!”to allow each player to get ready and then as soon as any user presses his/her keys “A/S” or “left/right arrow”, the timer starts in milliseconds and gets stopped when one of the user’s car crosses the finish line. It uses JavaScript, CSS, HTML, DOM manipulation.</p><br>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Weather App</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-github fa-fw w3-margin-right"></i><a href="https://github.com/Abubakar101/weather-API" target="_blank">See on Github</a></h6>
-            <p>It is a weather app which uses third-party API - openweathermap.org,  to show current weather around the world such as the city’s location, temperature in Fahrenheit, description of the weather, and along with minimum and maximum temperatures. It was built using  JQuery, HTML and CSS. </p><br>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Api-GIPHY</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-github fa-fw w3-margin-right"></i><a href="https://github.com/Abubakar101/Api-giphy" target="_blank">See on Github</a></h6>
-            <p>It is a simple app that allows the user to search randomly gifs using GIPHY-API up to 10 gifs per result. It was built in React, JSX, CSS</p><br>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Wealth Data</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-github fa-fw w3-margin-right"></i><a href="https://github.com/Abubakar101/CRUD" target="_blank">See on Github</a></h6>
-            <p>It allows the user to save data of wealth distribution around the neighborhood. User can input the information about wealth, population, age, ethnicity and neighborhood. It saves into database using Node.js and with full CRUD functionality on the same page. The app also uses EJS, CSS and javascript.</p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Puzzle Game</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-github fa-fw w3-margin-right"></i><a href="https://github.com/Abubakar101/Puzzle-Blocks" target="_blank">See on Github</a></h6>
-            <p>It is a puzzle game for one of its kind where every numbers on puzzle box have to be aligned in order from top to bottom and left to right. User types his/her user name to play the game. It was built using Javascript, JQuery, CSS, and HTML.</p><br>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>To-Do App</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-github fa-fw w3-margin-right"></i><a href="https://github.com/Abubakar101/todo-app" target="_blank">See on Github</a></h6>
-            <p>It is a to do app where a user can insert to-do list items and edit the information, delete the whole inserted item or assign status to each item as “done” when the user completes the task. It was built using HTML, CSS, Node.js (including EJS). </p><br>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Tic Tac Toe Game</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-github fa-fw w3-margin-right"></i><a href="https://github.com/Abubakar101/TicTacToe" target="_blank">See on Github</a></h6>
-            <p>It is a simplest and neat game where two players can play together and whoever wins gets the winning message. It uses DOM, Javascript, HTML and animated CSS such keyframe for on-changing forever background color.</p><br>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Cash-Register</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-github fa-fw w3-margin-right"></i><a href="https://github.com/Abubakar101/cash-register" target="_blank">See on Github</a></h6>
-            <p>It is an app that allows the user to input the numbers for basic mathematical operations that works as cash register where numbers can be multiplied, divided, added and subtracted. It was built in vanilla JavaScript, Html and CSS</p><br>
-          </div>
-        </div>
-
-        <!-- Contact From -->
-        <div class="w3-container w3-card-2 w3-white">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-commenting-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Contact</h2>
-          <div class="w3-container">
-            <div class="formContainer">
-              <form method="POST" action="http://formspree.io/muhammadabubakar0419@gmail.com">
-                <input class="w3-opacity" type="text" name="fullname" placeholder="Your name.."> &nbsp;
-                <input class="w3-opacity" type="email" name="email" placeholder="Your e-mail..">
-                <br>
-                <br>
-                <textarea class="w3-opacity" name="message" placeholder="Write something.." style="height:150px; width:57%;"></textarea>
-                <button class="form-btn" type="submit">Send</button>
-              </form>
-            </div>
-            <hr>
-          </div>
-        </div>
-        <!-- End Right Column -->
-      </div>
-      <!-- End Grid -->
+      <ul id="nav-mobile" class="side-nav">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse">
+        <i class="material-icons">menu</i>
+      </a>
     </div>
-    <!-- End Page Container -->
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br>
+        <br>
+        <h1 class="header center   white-text ">Muhammad Abubakar</h1>
+        <div class="center">
+          <h5 class="header flow-text brown-text ">Software Engineer | Full-Stack Developer</h5>
+        </div>
+        <br>
+        <br>
+
+      </div>
+    </div>
+    <div class="parallax">
+
+      <!-- <canvas id="c"></canvas>  -->
+      <!-- by Jack Rugile Codepen -->
+
+    </div>
+
+    <div class="valign-wrapper profileDiv">
+      <img class="center-align circle profile " src="assets/profile1.png" alt="Unsplashed background img 1">
+    </div>
   </div>
+
+
+  <!--   Summary   -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4 l12 summaryText">
+          <div class="icon-block">
+            <h1 class="left brown-text">
+              <i class="large material-icons quote">format_quote</i>
+            </h1>
+            <h5 class="flow-text summary">I am an inquisitive and curious software developer who is always looking to create better experiences. My ability
+              to strategically plan while maintaining a humorous outlook allows me to stay motivated and interconnected with
+              my teammates.
+            </h5>
+            <h1 class="right brown-text">
+              <i class="large material-icons">format_quote</i>
+            </h1>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Break -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="assets/hd-wallpapers-12.jpg" alt="image">
+    </div>
+  </div>
+
+
+  <!-- Skills -->
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h1 id="skills" class="brown-text scrollspy">Skills</h1>
+          <hr>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+       
+      <div class="row">
+        <div class="col s12 center">
+
+          <div class="logos">
+            <div class="nodejs-container col s2">
+              <img class="responsive-img" src="assets/skills/node.png" alt="Node.js">
+              <div class="title">Node.Js</div>
+            </div>
+
+
+
+            <div class="react-container col s2">
+              <img class="responsive-img" src="assets/skills/react.png" alt="React">
+              <div class="title">React</div>
+            </div>
+
+
+            <div class="javascript-container col s2">
+              <img class="responsive-img" src="assets/skills/js.png" alt="Javascript">
+              <div class="title">Javascript</div>
+            </div>
+
+
+            <div class="ruby-container col s2">
+              <img class="responsive-img" src="assets/skills/ruby.png"
+                alt="Ruby">
+              <div class="title">Ruby</div>
+            </div>
+
+            <div class="rubyOnRails-container col s2">
+              <img class="responsive-img" src="assets/skills/rails.png"
+                alt="Ruby on Rails">
+              <div class="title">Ruby on Rails</div>
+            </div>
+
+
+            <div class="jquery-container col s2">
+              <img class="responsive-img" src="assets/skills/jq.png" alt="JQuery">
+              <div class="title">JQuery</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+
+          <div class="logos">
+
+            <div class="git-container col s2">
+              <img class="responsive-img" src="assets/skills/git.png" alt="GitHub">
+              <div class="title">GitHub</div>
+            </div>
+
+
+
+            <div class="sql-container col s2">
+              <img class="responsive-img" src="assets/skills/psql.png" alt="PSQL">
+              <div class="title">PSQL</div>
+            </div>
+
+
+
+            <div class="css-container col s2">
+              <img class="responsive-img" src="assets/skills/css.png" alt="CSS">
+              <div class="title">CSS</div>
+            </div>
+
+            <div class="heroku-container col s2">
+              <img class="responsive-img" src="assets/skills/heroku.png" alt="Heroku">
+              <div class="title">Heroku</div>
+            </div>
+
+            <div class="materialize-container col s3">
+              <img class="responsive-img" src="assets/skills/materialize.png" alt="Materializecss">
+              <div class="title">Material Design</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <div class="logos projectTracking">
+
+            <div class="jira-container col s3">
+              <img class="responsive-img" src="assets/skills/jira.svg" alt="Jira">
+              <!-- <div class="title">Jira</div> -->
+            </div>
+
+            <div class="jira-container col s3 pull-s3">
+              <img class="responsive-img" src="assets/skills/trello.png" alt="Trello">
+              <!-- <div class="title">Trello</div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Break -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="assets/kids.jpg" alt="image">
+    </div>
+  </div>
+
+
+  <!-- Projects -->
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h1 id="projects" class="brown-text scrollspy">Projects</h1>
+          <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+              <ul class="right hide-on-med-and-down projectMenu">
+
+                <li class="active">
+                  <a id="all" class="allNav" href="#all">All</a>
+                </li>
+                <!-- <li>
+                  <a id="feature" class="feature" href="#feature">Featured</a>
+                </li> -->
+                <li>
+                  <a id="node" class="nodeNav" href="#node">Node.Js</a>
+                </li>
+                <li>
+                  <a id="react" class="reactNav" href="#react">React.Js</a>
+                </li>
+                <li>
+                  <a id="ruby" class="rubyNav" href="#ruby">Ruby On Rails</a>
+                </li>
+                <li>
+                  <a id="javascript" class="javascriptNav" href="#javascript">Vanilla Javascript/jQuery</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="projectImageContainer black">
+
+    <!-- <div class="section"> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col s12 center"> -->
+
+          <div class="projectDivs all ruby  ">
+            <a href="https://github.com/Abubakar101/TodoApp" target="_blank" class="projectLinks">
+              <img class="projectImages responsive-img" src="assets/projects/todolist.png" alt="Todo App">
+              <div class="projectText">
+                <h4>Ruby on Rails - TodoApp</h4>
+                <p>With user authentication and authorization, each user has their own privacy when they categorize, change
+                  the status and add, edit and delete each todo lists.</p>
+                <p>Tech: Ruby on Rails, PSQL, Javascript, HTML, ERB and CSS</p>
+                <p>See on GitHub</p>
+              </div>
+            </a>
+          </div>
+
+
+          <div class="projectDivs all node react ">
+            <a href="https://github.com/MistyMen/musicMonster" target="_blank" class="projectLinks">
+              <img class="projectImages responsive-img" src="assets/projects/burgerking.png" alt="Music Monster App">
+              <div class="projectText">
+                <h4>Node.js & React.js</h4>
+                <p>Music Monster allows users to search artists and their songs using Spotify API with an option to save the
+                  albums into database.</p>
+                <p> Tech: Node.js, React.js, Javascript, Third-party API, our API, PSQL, JSX and CSS with react-burger-menu</p>
+                <p>See on GitHub</p>
+              </div>
+            </a>
+          </div>
+
+
+          <div class="projectDivs all node react ">
+            <a href="https://github.com/Abubakar101/Tweeder_App" target="_blank" class="projectLinks">
+              <img class="projectImages responsive-img" src="assets/projects/tweedr.png" alt="Tweedr">
+              <div class="projectText">
+                <h4>Node.js & React.js - Tweeder App</h4>
+                <p> Similar idea to twitter.com and with each user inserted post, time is automatically posted. </p>
+                <p> Tech: Node.js, React.js, Javascript, CSS and JSX</p>
+                <p>See on GitHub</p>
+              </div>
+            </a>
+          </div>
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+
+    <!-- <div class="section"> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col s12 center"> -->
+
+          <div class="projectDivs all javascript ">
+            <a href="https://github.com/Abubakar101/racer" target="_blank" class="projectLinks">
+              <img class="projectImages responsive-img" src="assets/projects/carracing.png" alt="Car Racing">
+              <div class="projectText">
+                <h4>JavaScript Car Game</h4>
+                <p>Multiplayer with two timers, one for best scores and another one for count down.</p>
+                <p>Keys: 1st player “A/S” and 2nd player “left/right arrow”</p>
+                <p> Tech: JavaScript, CSS, HTML, DOM manipulation</p>
+                <p>See on GitHub</p>
+              </div>
+            </a>
+          </div>
+
+
+          <div class="projectDivs all javascript ">
+            <a href="https://github.com/Abubakar101/weather-API" target="_blank" class="projectLinks">
+              <img class="projectImages responsive-img" src="assets/projects/weatherapi.png" alt="Weather APP">
+
+              <div class="projectText">
+                <h4>JQuery Weather App</h4>
+                <p>Using openweathermap API to show current weather around the world with city’s location, temperature in Fahrenheit,
+                  description of the weather and minimum and maximum temperatures. </p>
+                <p> Tech: JQuery, third-party API, HTML and CSS</p>
+                <p>See on GitHub</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projectDivs all react ">
+            <a href="https://github.com/Abubakar101/Api-giphy" target="_blank" class="projectLinks">
+              <img class="projectImages responsive-img" src="assets/projects/giphyapi.png" alt="Giphy">
+              <div class="projectText">
+                <h4>React-GIPHY-API</h4>
+                <p>It allows users to search multiple gifs using GIPHY-API. </p>
+                <p> Tech: React, JavaScript, JSX, CSS</p>
+                <p>See on GitHub</p>
+              </div>
+            </a>
+          </div>
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+
+    <!-- <div class="section"> -->
+
+      <!-- <div class="row"> -->
+        <!-- <div class="col s12 center"> -->
+
+          <div class="projectDivs all node ">
+            <a href="https://github.com/Abubakar101/CRUD" target="_blank" class="projectLinks">
+              <img class="projectImages responsive-img" src="assets/projects/wealth.png" alt="Wealth Data App">
+              <div class="projectText">
+                <h4>Node.Js C.R.U.D APP</h4>
+                <p> User can input and save the information into database about wealth, population, age, ethnicity and neighborhood
+                  with full CRUD functionality on the same page. </p>
+                <p> Tech: Node.Js, EJS, CSS, PSQL and Javascript</p>
+                <p>See on GitHub</p>
+              </div>
+
+            </a>
+          </div>
+
+          <div class="projectDivs all javascript ">
+            <a href="https://github.com/Abubakar101/Puzzle-Blocks" target="_blank" class="projectLinks">
+              <img class="projectImages responsive-img" src="assets/projects/puzzlegame.png" alt="Puzzle Game">
+
+              <div class="projectText">
+                <h4>Javascript & JQuery Puzzle Game</h4>
+                <p> Each numbers on puzzle box have to be aligned in order, from top to bottom and left to right. User types
+                  his/her user name to play the game.</p>
+                <p> Tech: Javascript, JQuery, CSS, and HTML</p>
+                <p>See on GitHub</p>
+              </div>
+
+            </a>
+          </div>
+
+
+
+          <div class="projectDivs all javascript ">
+            <a href="https://github.com/Abubakar101/TicTacToe" target="_blank" class="projectLinks">
+              <img class="projectImages responsive-img" src="assets/projects/tictactoe.png" alt="Tic Tac Toe">
+              <div class="projectText">
+                <h4>Javascript TicTacToe</h4>
+                <p> two players can play together and whoever wins gets the winning message. </p>
+                <p> Tech: DOM, Javascript, HTML and animated CSS for on-changing background color.</p>
+                <p>See on GitHub</p>
+              </div>
+            </a>
+          </div>
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+
+    <!-- <div class="section"> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col s12 center"> -->
+
+          <div class="projectDivs all javascript ">
+            <a href="https://github.com/Abubakar101/cash-register" target="_blank" class="projectLinks">
+              <img class="projectImages responsive-img" src="assets/projects/cash-register.png" alt="Cash Register">
+              <div class="projectText">
+                <h4>Javascript Cash-Register</h4>
+                <p> Users can input numbers for basic mathematical operations that works as cash register where numbers can be
+                  multiplied, divided, added and subtracted. </p>
+                <p> Tech: Vanilla JavaScript, Html and CSS</p>
+                <p>See on GitHub</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projectDivs all node ">
+            <a href="https://github.com/Abubakar101/todo-app" target="_blank" class="projectLinks">
+              <img class="projectImages responsive-img" src="assets/projects/todoapp.png" alt="Todo App">
+
+              <div class="projectText">
+                <h4>Node.js TodoApp</h4>
+                <p> User can insert to-do list items and edit the information, delete the whole inserted item or assign status
+                  to each item as “done” when the user completes the task. </p>
+                <p> Tech: Node.Js, EJS and CSS</p>
+                <p>See on GitHub</p>
+              </div>
+
+            </a>
+
+          </div>
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+
+
+  </div>
+
+
+
+  <!-- <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="assets/hd-wallpapers-12.jpg" alt="image">
+      </div>
+    </div> -->
+
+
+  <!-- Contact -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h1 id="contact" class="brown-text scrollspy">Contact</h1>
+          <nav class="white" role="navigation">
+            <div class="nav-wrapper container contactLinks">
+              <ul class="right hide-on-med-and-down projectMenu">
+                <li>
+                  <a id="git" href="https://github.com/abubakar101" target="_blank">
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i> Abubakar101</a>
+                </li>
+                <li>
+                  <a id="linkedin" href="https://www.linkedin.com/in/mrabu" target="_blank">
+                    <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> Mrabu</a>
+                </li>
+                <li>
+                  <a id="phone">
+                    <i class="fa fa-phone-square fa-2x" aria-hidden="true"></i> +1(347) 596-2978</a>
+                </li>
+                <li>
+                  <a id="email">
+                    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i> muhammadabubakar0419@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <div class="formContainer col s6 push-s3">
+            <form method="POST" action="http://formspree.io/muhammadabubakar0419@gmail.com">
+              <input class="w3-opacity" type="text" name="fullname" placeholder="Your name.."> &nbsp;
+              <input class="w3-opacity" type="email" name="email" placeholder="Your e-mail..">
+              <br>
+              <br>
+              <textarea class="w3-opacity" name="message" placeholder="Type Your Message Here..." style="height:150px; width:57%;"></textarea>
+              <button class="form-btn" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer -->
-  <footer class="w3-container w3-teal w3-center w3-margin-top">
-    <p>Thank you for your time!</p>
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h5 class="white-text col s12 center ">
+            <p>Thank you for your time!</p>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright center">
+      <div class="container">
+        Made with
+        <a class="brown-text text-lighten-3" href="http://materializecss.com">Material Design</a>
+      </div>
+    </div>
   </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://use.fontawesome.com/e0bd11cdd9.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
 </body>
 
 </html>

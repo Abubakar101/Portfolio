@@ -1,9 +1,198 @@
-.skills {
-  display: flex;
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.parallax {
+  background: #000;
+  overflow: hidden;
+}
+canvas {
+  display: block;
 }
 
-.left {
-  flex-basis: 200px;
+.profileDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.summaryText {
+  display: flex;
+  margin-bottom: -2.5rem;
+}
+.quote {
+  transform: scaleX(-1);
+}
+
+.summary {
+  position: relative;
+  top: 25%;
+  margin-bottom: 0%;
+  font-family: 'Gloria Hallelujah', cursive;
+  line-height: 131%;
+}
+
+.logos img {
+  height: auto;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.rubyOnRails-container {
+  width: 13.5% !important;
+}
+
+.jquery-container {
+  width: 14.7% !important;
+}
+
+.sql-container img {
+  width: 95%;
+}
+
+.css-container img {
+  width: 88% !important;
+}
+
+.materialize-container {
+  width: 28% !important;
+}
+.projectMenu li a {
+  font-size: large;
+}
+
+.projectTracking {
+  display: flex;
+  align-items: center;
+}
+.projectImages {
+  max-height: 290px;
+  border-radius: 15px;
+}
+
+.projectImageContainer {
+  padding: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectDivs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 300px;
+  width: 30%;
+  /* border: 1px solid blue; */
+  /* background: red; */
+  margin: 10px;
+}
+
+.projectDivs:hover {
+  box-shadow: 0 8px 17px 0 rgba(255, 255, 255, 0.2),
+    0 6px 20px 0 rgba(236, 236, 236, 0.19);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.projectDivs:hover .projectImages {
+  display: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.projectText {
+  display: none;
+}
+.projectText p {
+  line-height: 1.8rem;
+}
+
+.projectDivs:hover .projectText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: 300px;
+  padding: 30px;
+  border: 1px solid beige;
+}
+
+/* Projects shown with selection */
+.node,
+.react,
+.ruby,
+.javascript {
+  display: none;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+#git,
+#linkedin,
+#phone,
+#email {
+  display: flex;
+  align-items: center;
+}
+
+#phone,
+#email {
+  cursor: text;
+}
+
+.contactLinks {
+  width: 86%;
 }
 
 .formContainer .form-btn {
@@ -19,4 +208,15 @@
   background-color: #009688;
   color: #fff;
   cursor: pointer;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
 }
