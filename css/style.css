@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 /* Custom Stylesheet */
 /**
  * Use this file to override Materialize files so you can update
@@ -21,6 +22,7 @@ canvas {
 
 .summaryText {
   display: flex;
+  margin-bottom: -2.5rem;
 }
 .quote {
   transform: scaleX(-1);
@@ -28,8 +30,10 @@ canvas {
 
 .summary {
   position: relative;
-  top: 27%;
+  top: 25%;
   margin-bottom: 0%;
+  font-family: 'Gloria Hallelujah', cursive;
+  line-height: 131%;
 }
 
 .logos img {
