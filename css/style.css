@@ -6,56 +6,50 @@
  * Made By MaterializeCSS.com
  */
 
- .parallax{
+.parallax {
   background: #000;
   overflow: hidden;
-  
- }
- canvas {
-	display: block;	
+}
+canvas {
+  display: block;
 }
 
-.profileDiv{
+.profileDiv {
   display: flex;
   justify-content: center;
 }
-.profile{
+.profile {
   /* height: 200px;
   width: 200px; */
   transform: scale(0.8);
   /* justify-content: center; */
-
-
 }
-.summaryText{
+.summaryText {
   display: flex;
 }
-.quote{
+.quote {
   transform: scaleX(-1);
 }
 
-.summary{
+.summary {
   position: relative;
   top: 27%;
   margin-bottom: 0%;
 }
 
-
-
 .logos img {
-  height:auto;
+  height: auto;
   max-width: 100%;
   padding: 10px;
 }
 
-.rubyOnRails-container{
+.rubyOnRails-container {
   width: 13.5% !important;
 }
 
-.jquery-container{
+.jquery-container {
   width: 14.7% !important;
 }
-
 
 /* .git-container{
   position: relative;
@@ -64,22 +58,22 @@
   width: 15% !important;
 } */
 
-.sql-container img{
+.sql-container img {
   width: 95%;
 }
 
-.css-container img{
+.css-container img {
   width: 88% !important;
 }
 
-.materialize-container{
+.materialize-container {
   width: 28% !important;
 }
-.projectMenu li a{
+.projectMenu li a {
   font-size: large;
 }
 
-.projectTracking{
+.projectTracking {
   display: flex;
   align-items: center;
 }
@@ -93,43 +87,52 @@
   object-fit: none;
 }
 
-
-
-.projectImages{
+.projectImages {
   border: 0.5px solid black;
   border-radius: 1%;
 }
 
-.projectDivs:hover{
-  box-shadow: 0 8px 17px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(236, 236, 236, 0.19);
-  -webkit-transition:  all 0.2s ease-in-out;
-  -moz-transition:  all 0.2s ease-in-out;
-  transition:  all 0.2s ease-in-out;
+.projectDivs:hover {
+  box-shadow: 0 8px 17px 0 rgba(255, 255, 255, 0.2),
+    0 6px 20px 0 rgba(236, 236, 236, 0.19);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   max-height: 260px;
-border: 1px solid beige;
+  border: 1px solid beige;
 }
 
-.projectDivs:hover  .projectImages{
- opacity: 0;
- -webkit-transition:  all 0.5s ease-in-out;
- -moz-transition:  all 0.5s ease-in-out;
- transition:  all 0.5s ease-in-out;
+.projectDivs:hover .projectImages {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-.projectDivs:hover  .projectText{
-  transform: translate(0%,-106%);
+.projectDivs:hover .projectText {
+  transform: translate(0%, -106%);
 }
-.projectText{
-display: none;
-/* border: 1px solid beige; */
-min-height: 250px;
+.projectText {
+  display: none;
+  /* border: 1px solid beige; */
+  min-height: 250px;
 }
-.projectText p{
+.projectText p {
   line-height: 1.8rem;
 }
 
-.projectDivs:hover  .projectText{
+.projectDivs:hover .projectText {
   display: block;
-  
+}
+
+.node,
+.react,
+.ruby,
+.javascript {
+  display: none;
+}
+
+.all {
+  display: block;
 }
 
 nav ul a,
@@ -149,13 +152,13 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, 0.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -165,25 +168,28 @@ p {
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }
 }
 
-#git, #linkedin, #phone, #email{
+#git,
+#linkedin,
+#phone,
+#email {
   display: flex;
   align-items: center;
 }
 
-#phone, #email{
+#phone,
+#email {
   cursor: text;
 }
 
-.contactLinks{
+.contactLinks {
   width: 86%;
 }
-
 
 .formContainer .form-btn {
   height: 35px;
@@ -199,7 +205,6 @@ p {
   color: #fff;
   cursor: pointer;
 }
-
 
 .icon-block {
   padding: 0 15px;
