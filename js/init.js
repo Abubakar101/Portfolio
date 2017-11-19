@@ -6,6 +6,12 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
+// Scroll Spy for scrolling smoothly
+$(document).ready(function(){
+  $('.scrollspy').scrollSpy();
+});
+
+
 // Adding 'active' class for selected Project divs - to highlight
 // Showing projects according to selection
 window.onload = function() {

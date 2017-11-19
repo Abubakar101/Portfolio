@@ -67,9 +67,9 @@ canvas {
 }
 .projectImages {
   max-height: 263px;
-object-fit: cover;
+  object-fit: cover;
   display: inline-block;
-} 
+}
 .projectImages.materialized.active {
   max-height: none;
   object-fit: none;
@@ -110,16 +110,8 @@ object-fit: cover;
 .projectDivs:hover .projectText {
   display: block;
   min-height: 263px;
-  background: red;
+  /* background: red; */
 }
-
-
-
-
-
-
-
-
 
 /* Projects shown with selection */
 .node,
@@ -127,7 +119,6 @@ object-fit: cover;
 .ruby,
 .javascript {
   display: none;
-  
 }
 
 .all {
