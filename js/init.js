@@ -75,15 +75,15 @@ function showProject(eNav) {
     e.style.display = "none";
 
     if (eNav == "allNav") {
-      if (e.className.includes("all")) e.style.display = "block";
+      if (e.className.includes("all")) e.style.display = "flex";
     } else if (eNav == "nodeNav") {
-      if (e.className.includes("node")) e.style.display = "block";
+      if (e.className.includes("node")) e.style.display = "flex";
     } else if (eNav == "reactNav") {
-      if (e.className.includes("react")) e.style.display = "block";
+      if (e.className.includes("react")) e.style.display = "flex";
     } else if (eNav == "rubyNav") {
-      if (e.className.includes("ruby")) e.style.display = "block";
+      if (e.className.includes("ruby")) e.style.display = "flex";
     } else if (eNav == "javascriptNav") {
-      if (e.className.includes("javascript")) e.style.display = "block";
+      if (e.className.includes("javascript")) e.style.display = "flex";
     }
   }, this);
 }
