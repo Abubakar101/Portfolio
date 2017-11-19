@@ -18,12 +18,7 @@ canvas {
   display: flex;
   justify-content: center;
 }
-.profile {
-  /* height: 200px;
-  width: 200px; */
-  transform: scale(0.8);
-  /* justify-content: center; */
-}
+
 .summaryText {
   display: flex;
 }
@@ -51,13 +46,6 @@ canvas {
   width: 14.7% !important;
 }
 
-/* .git-container{
-  position: relative;
-  bottom: -20px;
-  left: -66% !important;
-  width: 15% !important;
-} */
-
 .sql-container img {
   width: 95%;
 }
@@ -79,9 +67,9 @@ canvas {
 }
 .projectImages {
   max-height: 263px;
-  object-fit: cover;
+object-fit: cover;
   display: inline-block;
-}
+} 
 .projectImages.materialized.active {
   max-height: none;
   object-fit: none;
@@ -98,23 +86,22 @@ canvas {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  max-height: 260px;
-  border: 1px solid beige;
+  /* border:solid beige; */
 }
 
 .projectDivs:hover .projectImages {
-  opacity: 0;
+  /* opacity: 0; */
+  display: none;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.projectDivs:hover .projectText {
+/* .projectDivs:hover .projectText {
   transform: translate(0%, -106%);
-}
+} */
 .projectText {
   display: none;
-  /* border: 1px solid beige; */
-  min-height: 250px;
+  border: 1px solid beige;
 }
 .projectText p {
   line-height: 1.8rem;
@@ -122,13 +109,25 @@ canvas {
 
 .projectDivs:hover .projectText {
   display: block;
+  min-height: 263px;
+  background: red;
 }
 
+
+
+
+
+
+
+
+
+/* Projects shown with selection */
 .node,
 .react,
 .ruby,
 .javascript {
   display: none;
+  
 }
 
 .all {
