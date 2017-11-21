@@ -12,9 +12,20 @@ $(document).ready(function() {
 });
 
 window.onload = function() {
-  // Adding 'active' class for selected Project divs - to highlight
-  // Showing projects according to selection
+  // Adding nav-fixed bar
+  $(window).scroll(function() {
+    let scroll = $(window).scrollTop();
+    if (scroll >= 70) {
+      $(".navbar").addClass("navbar-fixed");
+    } else {
+      $(".navbar").removeClass("navbar-fixed");
+    }
+  });
+
   document.querySelector("body").addEventListener("click", function(e) {
+    // Adding 'active' class for selected Project divs - to highlight
+    // Showing projects according to selection
+    let projectMenu = document.querySelectorAll(".projectMenu LI");
     if (
       e.target.parentElement.parentElement.className ==
       "right hide-on-med-and-down projectMenu"
@@ -24,39 +35,39 @@ window.onload = function() {
         showProject(e.target.className);
 
         // removing all other 'active' classes
-        removeClass(e.target.parentElement);
+        removeClass(e.target.parentElement, projectMenu);
       } else if (e.target.className === "nodeNav") {
         // Only selected projects
         showProject(e.target.className);
 
         // removing all other 'active' classes
-        removeClass(e.target.parentElement);
+        removeClass(e.target.parentElement, projectMenu);
       } else if (e.target.className === "reactNav") {
         // Only selected projects
         showProject(e.target.className);
 
         // removing all other 'active' classes
-        removeClass(e.target.parentElement);
+        removeClass(e.target.parentElement, projectMenu);
       } else if (e.target.className === "rubyNav") {
         // Only selected projects
         showProject(e.target.className);
 
         // removing all other 'active' classes
-        removeClass(e.target.parentElement);
+        removeClass(e.target.parentElement, projectMenu);
       } else if (e.target.className === "javascriptNav") {
         // Only selected projects
         showProject(e.target.className);
 
         // removing all other 'active' classes
-        removeClass(e.target.parentElement);
+        removeClass(e.target.parentElement, projectMenu);
       }
     }
   });
 };
 
 // Remove active class function
-function removeClass(current) {
-  let menuChidlren = document.querySelectorAll(".projectMenu LI");
+function removeClass(current, selector) {
+  let menuChidlren = selector;
   // Removing every className 'active'
   for (let i = 0; i < menuChidlren.length; i++) {
     menuChidlren[i].classList.remove("active");

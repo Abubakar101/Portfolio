@@ -6,6 +6,30 @@
  *
  * Made By MaterializeCSS.com
  */
+/* .navbar-fixed {
+  border: none !important;
+  -webkit-box-shadow: 0 !important;
+  -moz-box-shadow: 0 !important;
+  box-shadow: 0 !important;
+} */
+
+.navbar-fixed #home {
+  height: 50px;
+}
+
+.navbar-fixed .navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-fixed .navContainer ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar-fixed .navMenu li a {
+  font-size: large;
+}
 
 .parallax {
   background: #000;
