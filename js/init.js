@@ -11,9 +11,9 @@ $(document).ready(function() {
   $(".scrollspy").scrollSpy();
 });
 
-// Adding 'active' class for selected Project divs - to highlight
-// Showing projects according to selection
 window.onload = function() {
+  // Adding 'active' class for selected Project divs - to highlight
+  // Showing projects according to selection
   document.querySelector("body").addEventListener("click", function(e) {
     if (
       e.target.parentElement.parentElement.className ==
