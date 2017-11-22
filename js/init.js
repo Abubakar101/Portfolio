@@ -28,7 +28,7 @@ window.onload = function() {
     let projectMenu = document.querySelectorAll(".projectMenu LI");
     if (
       e.target.parentElement.parentElement.className ==
-      "right hide-on-med-and-down projectMenu"
+      "right projectMenu"
     ) {
       if (e.target.className === "allNav") {
         // Only selected projects

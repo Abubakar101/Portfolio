@@ -208,90 +208,103 @@ p {
 }
 
 @media only screen and (max-width: 400px) {
-    
-    /* Navbar */
-    #home {
-      height: 50px;
-    }
-    
-    .navContainer {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .navContainer ul {
-      width: 40%;
-      display: flex;
-      justify-content: space-evenly;
-    }
+  /* Navbar */
+  #home {
+    height: 50px;
+  }
+  .navContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navContainer ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+  }
 
+  /* Profile Picture */
+  .profileDiv .profile {
+    width: 30%;
+  }
 
-  
-    /* Profile Picture */
-  .profileDiv .profile{
-      /* padding: 5% 0% 5% 0%; */
-      /* border-radius: 50%; */
-      width: 30%;
-    }
+  .summaryContainer {
+    padding-bottom: 3rem;
+  }
+  .summaryText {
+    display: flex;
+    /* background: blue; */
+    min-height: 203px;
+  }
 
-    
-    /* Summary Text */
-    /* .icon-block{
-      display: flex;
-      padding: 0px !important;
-    } */
+  .summary {
+    /* background: beige; */
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    line-height: 146%;
+  }
+  .summaryText .left {
+    display: flex;
+    align-items: end;
+  }
+  .summaryText .rightQuote {
+    /* background: yellow; */
+    display: flex;
+    align-items: flex-end;
+  }
 
-    .summaryContainer{
-      padding-bottom: 3rem;
-    }
-    .summaryText {
-      display: flex;
-      /* background: blue; */
-      min-height: 203px;
-    }
+  /* Skills */
+  .logoTopSection,
+  .logoMiddleSection {
+    padding-bottom: 0rem;
+  }
+  .logoMiddleSection {
+    padding-top: 0rem;
+  }
+  .logoBottomSection {
+    padding-top: 0rem;
+  }
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .summary{
-      /* background: beige; */
-      padding: 1%;
-      display: flex;
-      align-items: center;
-      line-height: 146%;
-    }
-    .summaryText .left{
-      display: flex;
-      align-items: end;
-    }
-    .summaryText .rightQuote{
-      /* background: yellow; */
-      display: flex;
-      align-items: flex-end;
-    }
+  .skillLogo {
+    width: 32%;
+  }
 
-/* Skills */
-    .logoTopSection, .logoMiddleSection{
-      padding-bottom: 0rem;
-    }
-    .logoMiddleSection{
-      padding-top: 0rem;
-     }
-    .logoBottomSection{
-      padding-top: 0rem;
-     }
-    .logos{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+  /* Parallax */
+  .kidsPhoto {
+    left: 30% !important;
+    bottom: -57px !important;
+  }
 
-    .skillLogo{
-      width: 32%;
-    }
+  /* Projects Nav */
+  #biggerScreen {
+    display: none;
+  }
 
-    /* Parallax */
-    .kidsPhoto{
-      left: 30% !important;
-      bottom: -57px !important;
-    }
+  #nav-mobile {
+    display: flex !important;
+  }
+  #nav-mobile li a {
+    font-size: inherit;
+  }
+
+  /* Projects */
+  .projectImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projectDivs{
+  width: 100%;
+}
 }
 
 #git,
