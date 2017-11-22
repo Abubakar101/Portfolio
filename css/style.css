@@ -207,6 +207,93 @@ p {
   }
 }
 
+@media only screen and (max-width: 400px) {
+    
+    /* Navbar */
+    #home {
+      height: 50px;
+    }
+    
+    .navContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .navContainer ul {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+
+  
+    /* Profile Picture */
+  .profileDiv .profile{
+      /* padding: 5% 0% 5% 0%; */
+      /* border-radius: 50%; */
+      width: 30%;
+    }
+
+    
+    /* Summary Text */
+    /* .icon-block{
+      display: flex;
+      padding: 0px !important;
+    } */
+
+    .summaryContainer{
+      padding-bottom: 3rem;
+    }
+    .summaryText {
+      display: flex;
+      /* background: blue; */
+      min-height: 203px;
+    }
+
+    .summary{
+      /* background: beige; */
+      padding: 1%;
+      display: flex;
+      align-items: center;
+      line-height: 146%;
+    }
+    .summaryText .left{
+      display: flex;
+      align-items: end;
+    }
+    .summaryText .rightQuote{
+      /* background: yellow; */
+      display: flex;
+      align-items: flex-end;
+    }
+
+/* Skills */
+    .logoTopSection, .logoMiddleSection{
+      padding-bottom: 0rem;
+    }
+    .logoMiddleSection{
+      padding-top: 0rem;
+     }
+    .logoBottomSection{
+      padding-top: 0rem;
+     }
+    .logos{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .skillLogo{
+      width: 32%;
+    }
+
+    /* Parallax */
+    .kidsPhoto{
+      left: 30% !important;
+      bottom: -57px !important;
+    }
+}
+
 #git,
 #linkedin,
 #phone,
