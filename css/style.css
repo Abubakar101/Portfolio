@@ -300,11 +300,49 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+  }
 
-.projectDivs{
-  width: 100%;
-}
+  .projectDivs {
+    width: 100%;
+  }
+
+  /* Contact */
+  #biggerContactScreen {
+    display: none;
+  }
+
+  #contact-mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .contactNav{
+    min-height: 231px;
+  }
+  .shade{
+    background: whitesmoke;
+    margin: 0 auto;
+    width: 96%;
+  }
+  .shade i{
+    margin-left: -8px;
+  }
+
+  #contact-mobile li {
+    margin-left: -34px;
+  }
+
+  #contact-mobile li a i {
+    display: flex;
+    align-items: center;
+  } 
+  
+  .form-btn{
+    width: 90%;
+    height: 50px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
 }
 
 #git,

@@ -34,24 +34,6 @@
             <a href="#contact" class="navContact">Contact</a>
           </li>
         </ul>
-
-        <!-- <ul id="nav-mobile" class="side-nav">
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul> -->
-        <!-- <a href="#" data-activates="nav-mobile" class="button-collapse">
-          <i class="material-icons">menu</i>
-        </a> -->
       </div>
     </nav>
   </div>
@@ -446,11 +428,11 @@
   <div class="container">
     <div class="section">
       <div class="row">
-        <div class="col s12 center">
+        <div class="col s12 l12 center">
           <h1 id="contact" class="brown-text scrollspy">Contact</h1>
-          <nav class="white" role="navigation">
+          <nav class="contactNav white " role="navigation">
             <div class="nav-wrapper container contactLinks">
-              <ul class="right hide-on-med-and-down projectMenu">
+              <ul id="biggerContactScreen" class="right projectMenu">
                 <li>
                   <a id="git" href="https://github.com/abubakar101" target="_blank">
                     <i class="fa fa-github fa-2x" aria-hidden="true"></i> Abubakar101</a>
@@ -468,6 +450,30 @@
                     <i class="fa fa-envelope fa-2x" aria-hidden="true"></i> muhammadabubakar0419@gmail.com</a>
                 </li>
               </ul>
+
+<!-- For Mobile -->
+              <ul id="contact-mobile" class="projectMenu left" style="display:none;">
+                  
+                    
+                    <li>
+                      <a id="git" class="shade" href="https://github.com/abubakar101" target="_blank">
+                        <i class="fa fa-github fa-2x" aria-hidden="true"></i> Abubakar101</a>
+                    </li>
+                    <li>
+                      <a id="linkedin" href="https://www.linkedin.com/in/mrabu" target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> Mrabu</a>
+                    </li>
+                    <li>
+                      <a id="phone" class="shade">
+                        <i class="fa fa-phone-square fa-2x" aria-hidden="true"></i> +1(347) 596-2978</a>
+                    </li>
+                    <li>
+                      <a id="email" class="left">
+                        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i> muhammadabubakar0419@gmail.com</a>
+                    </li> 
+                </ul>
+
+
             </div>
           </nav>
         </div>
@@ -477,13 +483,13 @@
     <div class="section">
       <div class="row">
         <div class="col s12 center">
-          <div class="formContainer col s6 push-s3">
+          <div class="formContainer col l6 push-l3">
             <form method="POST" action="http://formspree.io/muhammadabubakar0419@gmail.com">
               <input class="w3-opacity" type="text" name="fullname" placeholder="Your name.."> &nbsp;
               <input class="w3-opacity" type="email" name="email" placeholder="Your e-mail..">
               <br>
               <br>
-              <textarea class="w3-opacity" name="message" placeholder="Type Your Message Here..." style="height:150px; width:57%;"></textarea>
+              <textarea class="w3-opacity" name="message" placeholder="Type Your Message Here..." style="height:150px; width:100%;"></textarea>
               <button class="form-btn" type="submit">Send</button>
             </form>
           </div>
