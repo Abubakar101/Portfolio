@@ -207,7 +207,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
   /* Navbar */
   #home {
     height: 50px;
@@ -239,7 +239,7 @@ p {
 
   .summary {
     /* background: beige; */
-    padding: 1%;
+    padding: 2% 0% 0% 4%;
     display: flex;
     align-items: center;
     line-height: 146%;
@@ -316,30 +316,29 @@ p {
     flex-direction: column;
   }
 
-  .contactNav{
+  .contactNav {
     min-height: 231px;
-  }
-  .shade{
-    background: whitesmoke;
-    margin: 0 auto;
-    width: 96%;
-  }
-  .shade i{
-    margin-left: -8px;
+    display: flex;
+    align-items: center;
   }
 
-  #contact-mobile li {
-    margin-left: -34px;
+  .contactLinks {
+    width: 100% !important;
+  }
+
+  .shade {
+    background: whitesmoke;
   }
 
   #contact-mobile li a i {
     display: flex;
     align-items: center;
-  } 
-  
-  .form-btn{
+  }
+
+  .form-btn {
     width: 90%;
-    height: 50px;
+    height: 70px !important;
+    font-size: x-large;
     letter-spacing: 10px;
     text-transform: uppercase;
   }
