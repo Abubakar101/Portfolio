@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Muhammad Abubakar</title>
+  <title>Muhammad Abubakar Portfolio</title>
 
   <!-- CSS  -->
   <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -15,63 +15,40 @@
 
 <body>
   <!-- Home -->
-  <nav id="home" class="white scrollspy" role="navigation">
-    <div class="nav-wrapper container">
-      <!-- <a id="logo-container" href="#" class="brand-logo">Logo</a> -->
-      <ul class="right hide-on-med-and-down">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#skills">Skills</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
+  <div id="top" class="scrollspy"></div>
+  <div class="navbar">
+    <nav id="home" class="white scrollspy" role="navigation">
+      <div class="nav-wrapper container navContainer">
+        <!-- <a id="logo-container" href="#" class="brand-logo">Logo</a> -->
+        <ul class="right navMenu">
+          <li>
+            <a href="#top" class="navHome">Home</a>
+          </li>
+          <li>
+            <a href="#skills" class="navSkill">Skills</a>
+          </li>
+          <li>
+            <a href="#projects" class="navProject">Projects</a>
+          </li>
+          <li>
+            <a href="#contact" class="navContact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#skills">Skills</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse">
-        <i class="material-icons">menu</i>
-      </a>
-    </div>
-  </nav>
-
-  <div id="index-banner" class="parallax-container">
+  <div id="index-banner" class=" black">
     <div class="section no-pad-bot">
       <div class="container">
-        <br>
-        <br>
-        <h1 class="header center   white-text ">Muhammad Abubakar</h1>
+        <h1 id="nameTop" class="header center   white-text ">Muhammad Abubakar</h1>
         <div class="center">
           <h5 class="header flow-text brown-text ">Software Engineer | Full-Stack Developer</h5>
         </div>
-        <br>
-        <br>
 
       </div>
     </div>
     <div class="parallax">
-
-      <!-- <canvas id="c"></canvas>  -->
-      <!-- by Jack Rugile Codepen -->
-
     </div>
 
     <div class="valign-wrapper profileDiv">
@@ -81,22 +58,22 @@
 
 
   <!--   Summary   -->
-  <div class="container">
-    <div class="section">
+  <div class="container summaryMainContainer">
+    <div class="section summaryContainer">
       <div class="row">
-        <div class="col s12 m4 l12 summaryText">
-          <div class="icon-block">
-            <h1 class="left brown-text">
-              <i class="large material-icons quote">format_quote</i>
-            </h1>
-            <h5 class="flow-text summary">I am an inquisitive and curious software developer who is always looking to create better experiences. My ability
-              to strategically plan while maintaining a humorous outlook allows me to stay motivated and interconnected with
-              my teammates.
-            </h5>
-            <h1 class="right brown-text">
-              <i class="large material-icons">format_quote</i>
-            </h1>
+        <div class=" summaryText">
+
+          <div class="brown-text">
+            <i class="small material-icons quote">format_quote</i>
           </div>
+          <h5 class="flow-text summary">I am an inquisitive and curious software developer who is always looking to create better experiences. My ability
+            to strategically plan while maintaining a humorous outlook allows me to stay motivated and interconnected with
+            my teammates.
+          </h5>
+          <div class="brown-text rightQuote">
+            <i class="small material-icons">format_quote</i>
+          </div>
+
         </div>
 
       </div>
@@ -131,43 +108,43 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section logoTopSection">
 
       <div class="row">
         <div class="col s12 center">
 
           <div class="logos">
-            <div class="nodejs-container col s2">
+            <div class="nodejs-container skillLogo col m4 l2">
               <img class="responsive-img" src="assets/skills/node.png" alt="Node.js">
               <div class="title">Node.Js</div>
             </div>
 
 
 
-            <div class="react-container col s2">
+            <div class="react-container skillLogo col m4 l2">
               <img class="responsive-img" src="assets/skills/react.png" alt="React">
               <div class="title">React</div>
             </div>
 
 
-            <div class="javascript-container col s2">
+            <div class="javascript-container skillLogo col m4 l2">
               <img class="responsive-img" src="assets/skills/js.png" alt="Javascript">
               <div class="title">Javascript</div>
             </div>
 
 
-            <div class="ruby-container col s2">
+            <div class="ruby-container skillLogo col m4 l2">
               <img class="responsive-img" src="assets/skills/ruby.png" alt="Ruby">
               <div class="title">Ruby</div>
             </div>
 
-            <div class="rubyOnRails-container col s2">
-              <img class="responsive-img" src="assets/skills/rails.png" alt="Ruby on Rails">
+            <div class="rubyOnRails-container skillLogo col m4 l2 ">
+              <img class="responsive-img" src="assets/skills/rails.png" alt="Rails">
               <div class="title">Ruby on Rails</div>
             </div>
 
 
-            <div class="jquery-container col s2">
+            <div class="jquery-container skillLogo col m4 l2">
               <img class="responsive-img" src="assets/skills/jq.png" alt="JQuery">
               <div class="title">JQuery</div>
             </div>
@@ -177,33 +154,33 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section logoMiddleSection">
       <div class="row">
         <div class="col s12 center">
 
           <div class="logos">
 
-            <div class="git-container col s2">
+            <div class="git-container skillLogo col m4 l2">
               <img class="responsive-img" src="assets/skills/git.png" alt="GitHub">
               <div class="title">GitHub</div>
             </div>
 
-            <div class="sql-container col s2">
+            <div class="sql-container skillLogo col m4 l2">
               <img class="responsive-img" src="assets/skills/psql.png" alt="PSQL">
               <div class="title">PSQL</div>
             </div>
 
-            <div class="css-container col s2">
+            <div class="css-container skillLogo col m4 l2">
               <img class="responsive-img" src="assets/skills/css.png" alt="CSS">
               <div class="title">CSS</div>
             </div>
 
-            <div class="heroku-container col s2">
+            <div class="heroku-container skillLogo col m4 l2">
               <img class="responsive-img" src="assets/skills/heroku.png" alt="Heroku">
               <div class="title">Heroku</div>
             </div>
 
-            <div class="materialize-container col s3">
+            <div class="materialize-container skillLogo col m4 l4 pull-m2">
               <img class="responsive-img" src="assets/skills/materialize.png" alt="Materializecss">
               <div class="title">Material Design</div>
             </div>
@@ -213,16 +190,16 @@
     </div>
 
 
-    <div class="section">
+    <div class="section logoBottomSection">
       <div class="row">
         <div class="col s12 center">
           <div class="logos projectTracking">
 
-            <div class="jira-container col s3">
+            <div class="jira-container skillLogo col m3 l3">
               <img class="responsive-img" src="assets/skills/jira.svg" alt="Jira">
             </div>
 
-            <div class="jira-container col s3 pull-s3">
+            <div class="trello-container skillLogo col m3 l3 pull-l3 pull-m2">
               <img class="responsive-img" src="assets/skills/trello.png" alt="Trello">
             </div>
           </div>
@@ -242,7 +219,7 @@
       </div>
     </div>
     <div class="parallax">
-      <img src="assets/kids.jpg" alt="image">
+      <img src="assets/kids.jpg" class="kidsPhoto" alt="image">
     </div>
   </div>
 
@@ -253,28 +230,47 @@
     <div class="section">
 
       <div class="row">
-        <div class="col s12 center">
+        <div class="center">
           <h1 id="projects" class="brown-text scrollspy">Projects</h1>
           <nav class="white" role="navigation">
-            <div class="nav-wrapper container">
-              <ul class="right hide-on-med-and-down projectMenu">
+            <div class="nav-wrapper container bigProjectNavContainer">
+              <ul id="biggerScreen" class="center projectMenu">
 
                 <li class="active">
-                  <a id="all" class="allNav" href="#all">All</a>
+                  <a id="all" class="allNav">All</a>
                 </li>
                 <li>
-                  <a id="node" class="nodeNav" href="#node">Node.Js</a>
+                  <a id="node" class="nodeNav">Node.Js</a>
                 </li>
                 <li>
-                  <a id="react" class="reactNav" href="#react">React.Js</a>
+                  <a id="react" class="reactNav">React.Js</a>
                 </li>
                 <li>
-                  <a id="ruby" class="rubyNav" href="#ruby">Ruby On Rails</a>
+                  <a id="ruby" class="rubyNav">Ruby On Rails</a>
                 </li>
                 <li>
-                  <a id="javascript" class="javascriptNav" href="#javascript">Vanilla Javascript/jQuery</a>
+                  <a id="javascript" class="javascriptNav">Vanilla Javascript/jQuery</a>
                 </li>
               </ul>
+
+              <ul id="nav-mobile" class="center projectMenu" style="display:none;">
+                <li class="active">
+                  <a id="all" class="allNav">All</a>
+                </li>
+                <li>
+                  <a id="node" class="nodeNav">Node.js</a>
+                </li>
+                <li>
+                  <a id="react" class="reactNav">React.js</a>
+                </li>
+                <li>
+                  <a id="ruby" class="rubyNav">Rails</a>
+                </li>
+                <li>
+                  <a id="javascript" class="javascriptNav">JS/JQ</a>
+                </li>
+              </ul>
+
             </div>
           </nav>
         </div>
@@ -432,11 +428,11 @@
   <div class="container">
     <div class="section">
       <div class="row">
-        <div class="col s12 center">
+        <div class="col s12 m12 l12 center">
           <h1 id="contact" class="brown-text scrollspy">Contact</h1>
-          <nav class="white" role="navigation">
-            <div class="nav-wrapper container contactLinks">
-              <ul class="right hide-on-med-and-down projectMenu">
+          <nav class="contactNav white " role="navigation">
+            <div class="contactLinks">
+              <ul id="biggerContactScreen" class="right projectMenu">
                 <li>
                   <a id="git" href="https://github.com/abubakar101" target="_blank">
                     <i class="fa fa-github fa-2x" aria-hidden="true"></i> Abubakar101</a>
@@ -454,6 +450,30 @@
                     <i class="fa fa-envelope fa-2x" aria-hidden="true"></i> muhammadabubakar0419@gmail.com</a>
                 </li>
               </ul>
+
+              <!-- For Mobile -->
+              <ul id="contact-mobile" class="projectMenu" style="display:none;">
+
+
+                <li>
+                  <a id="git" class="shade" href="https://github.com/abubakar101" target="_blank">
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i> Abubakar101</a>
+                </li>
+                <li>
+                  <a id="linkedin" href="https://www.linkedin.com/in/mrabu" target="_blank">
+                    <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> Mrabu</a>
+                </li>
+                <li>
+                  <a id="phone" class="shade">
+                    <i class="fa fa-phone-square fa-2x" aria-hidden="true"></i> +1(347) 596-2978</a>
+                </li>
+                <li>
+                  <a id="email" class="left">
+                    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i> muhammadabubakar0419@gmail.com</a>
+                </li>
+              </ul>
+
+
             </div>
           </nav>
         </div>
@@ -463,13 +483,13 @@
     <div class="section">
       <div class="row">
         <div class="col s12 center">
-          <div class="formContainer col s6 push-s3">
+          <div class="formContainer col s12 m12 l6 push-l3">
             <form method="POST" action="http://formspree.io/muhammadabubakar0419@gmail.com">
               <input class="w3-opacity" type="text" name="fullname" placeholder="Your name.."> &nbsp;
               <input class="w3-opacity" type="email" name="email" placeholder="Your e-mail..">
               <br>
               <br>
-              <textarea class="w3-opacity" name="message" placeholder="Type Your Message Here..." style="height:150px; width:57%;"></textarea>
+              <textarea class="w3-opacity" name="message" placeholder="Type Your Message Here..." style="height:150px; width:100%;"></textarea>
               <button class="form-btn" type="submit">Send</button>
             </form>
           </div>
