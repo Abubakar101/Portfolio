@@ -226,8 +226,6 @@ p {
   width: 100%;
 }
 
-
-
 /* contact */
 .contactNav {
   display: flex;
@@ -287,26 +285,39 @@ footer.page-footer {
 /* Responsive Design */
 @media only screen and (max-width: 1024px) {
   .navMenu li a {
-    font-size: 1rem;
+    font-size: 14px;
     padding: 0px 10px 0px 10px;
   }
 
+  #nameTop,
+  h1 {
+    font-size: 40px;
+  }
+  .subTitle {
+    font-size: 18px;
+  }
+
+  .profileDiv img {
+    width: 13%;
+  }
   /* Summary */
-  .summaryContainer {
-    padding-bottom: 3rem;
+  .summaryMainContainer {
+    width: 94%;
+    min-height: 160px;
   }
   .summaryText {
     display: flex;
-    min-height: 203px;
+    /* min-height: 203px; */
+    margin-left: 55px;
   }
 
   .summary {
-    width: 85%;
-    padding: 0px 0px 0px 7px;
+    /* width: 85%; */
+    padding: 0px 0px 0px 0px;
     display: flex;
     align-items: center;
-    line-height: 147%;
-    font-size: x-large;
+    line-height: 160%;
+    font-size: 20px;
   }
   .summaryText .left {
     display: flex;
@@ -315,7 +326,13 @@ footer.page-footer {
   .summaryText .rightQuote {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    right: 85px;
+    position: relative;
+  }
+
+  .parallax-container {
+    min-height: 300px;
   }
   .logoTopSection,
   .logoMiddleSection {
@@ -333,26 +350,30 @@ footer.page-footer {
     width: 90%;
   }
 
+  #biggerScreen {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projectMenu li a {
+    font-size: 14px;
+  }
   .projectDivs {
     width: 30%;
+    min-height: 350px;
   }
 
   .projectDivs:hover .projectText {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
-    max-height: 350px;
-    padding: 5px;
-    /* border: 1px solid beige; */
-}
+    min-height: 350px;
+    padding: 0px 0px 0px 5px;
+  }
 
-.projectText h4{
-  font-size: 2rem;
-}
-/* .projectText p{
+  .projectText h4 {
+    font-size: 2rem;
+  }
+  /* .projectText p{
   font-size: 1rem;
-} */
+  } */
   /* Contacts */
   .contactNav {
     width: 110%;
