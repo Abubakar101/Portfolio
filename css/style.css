@@ -226,10 +226,68 @@ p {
   width: 100%;
 }
 
+
+
+/* contact */
+.contactNav {
+  display: flex;
+  justify-content: center;
+}
+
+#biggerContactScreen li a i {
+  display: flex;
+  align-items: center;
+}
+
+#git,
+#linkedin,
+#phone,
+#email {
+  display: flex;
+  align-items: center;
+}
+
+#phone,
+#email {
+  cursor: text;
+}
+
+.contactLinks {
+  width: 86%;
+}
+
+.form-btn {
+  height: 65px;
+  width: 20%;
+  font-size: x-large;
+  border-radius: 5px;
+  border: 1px dotted #009688;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #757575;
+}
+
+.formContainer .form-btn:hover {
+  background-color: #009688;
+  color: #fff;
+  cursor: pointer;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
 /* Responsive Design */
 @media only screen and (max-width: 1024px) {
   .navMenu li a {
-    font-size: large;
+    font-size: 1rem;
     padding: 0px 10px 0px 10px;
   }
 
@@ -243,7 +301,8 @@ p {
   }
 
   .summary {
-    padding: 2% 0% 0% 2%;
+    width: 85%;
+    padding: 0px 0px 0px 7px;
     display: flex;
     align-items: center;
     line-height: 147%;
@@ -256,6 +315,7 @@ p {
   .summaryText .rightQuote {
     display: flex;
     align-items: flex-end;
+    margin-bottom: 30px;
   }
   .logoTopSection,
   .logoMiddleSection {
@@ -274,9 +334,25 @@ p {
   }
 
   .projectDivs {
-    width: 41%;
+    width: 30%;
   }
 
+  .projectDivs:hover .projectText {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    max-height: 350px;
+    padding: 5px;
+    /* border: 1px solid beige; */
+}
+
+.projectText h4{
+  font-size: 2rem;
+}
+/* .projectText p{
+  font-size: 1rem;
+} */
   /* Contacts */
   .contactNav {
     width: 110%;
@@ -714,60 +790,4 @@ p {
     letter-spacing: 10px;
     text-transform: uppercase;
   }
-}
-
-/* contact */
-.contactNav {
-  display: flex;
-  justify-content: center;
-}
-
-#biggerContactScreen li a i {
-  display: flex;
-  align-items: center;
-}
-
-#git,
-#linkedin,
-#phone,
-#email {
-  display: flex;
-  align-items: center;
-}
-
-#phone,
-#email {
-  cursor: text;
-}
-
-.contactLinks {
-  width: 86%;
-}
-
-.form-btn {
-  height: 65px;
-  width: 20%;
-  font-size: x-large;
-  border-radius: 5px;
-  border: 1px dotted #009688;
-  cursor: pointer;
-  transition: all 0.2s;
-  color: #757575;
-}
-
-.formContainer .form-btn:hover {
-  background-color: #009688;
-  color: #fff;
-  cursor: pointer;
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
 }
