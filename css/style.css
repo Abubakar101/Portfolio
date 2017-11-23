@@ -405,9 +405,9 @@ footer.page-footer {
     position: absolute;
     top: 40%;
   }
-  #index-banner {
+  /* #index-banner {
     width: 100%;
-  }
+  } */
   #index-banner .section {
     top: 10%;
   }
@@ -540,9 +540,9 @@ footer.page-footer {
   }
 
   /* Profile */
-  #index-banner {
+  /* #index-banner {
     width: 96%;
-  }
+  } */
 
   .profileDiv .profile {
     width: 25%;
@@ -828,27 +828,18 @@ footer.page-footer {
 @media only screen and (max-width: 425px) {
   /* Navbar */
 
-  .navMenu li a{
+  .navMenu li a {
     font-size: medium;
   }
-
-
-  .summaryMainContainer{
+  .summaryMainContainer {
     margin: 0px;
   }
-  /* .ruby-container{
-    margin-left: -20px;
-  }
-
-  .rubyOnRails-container{
-    margin-right: -6px;
-  } */
-
-  .materialize-container{
+  .materialize-container {
     width: 45%;
   }
 
-  .trello-container{
+  /* Skills Logos */
+  .trello-container {
     display: block;
   }
 
@@ -856,6 +847,7 @@ footer.page-footer {
     width: 85%;
   }
 
+  /* Contacts */
   #nav-mobile li a {
     font-size: medium;
   }
@@ -863,5 +855,61 @@ footer.page-footer {
   .contactNav {
     width: 79%;
   }
+}
+
+@media only screen and (max-width: 375px) {
+  /* Navbar */
+  .navMenu li a {
+    font-size: small;
+  }
+
+  .navbar-fixed .navMenu li a {
+    font-size: medium;
+  }
+  /* Summary */
+
+  .rightQuote {
+    right: 47px !important;
+    position: relative;
+  }
+
+  /* Skills Logos */
+
+  .rubyOnRails-container {
+    margin: 0px !important;
+  }
+
+  .jira-container {
+    margin: 0px !important;
+  }
+  .trello-container {
+    margin-right: -145px !important;
+    display: block;
+  }
+  .contactNav {
+    width: 91%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* Navbar */
+  .navMenu li {
+    padding: 0px 3px 0px 3px;
+}
+
+  .navMenu li a {
+    font-size: medium;
+  } 
+
+  /* Projects */
   
+  #nav-mobile li a {
+    padding: 0px 9px;
+  }
+.contactNav {
+    width: 100%;
+}
+#contact-mobile {
+  width: 100%;
+}
 }
