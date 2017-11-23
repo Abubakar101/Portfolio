@@ -75,12 +75,15 @@ canvas {
   /* margin-bottom: 0%; */
   font-family: "Gloria Hallelujah", cursive;
   line-height: 195%;
+  padding-left: 20px;
 }
 
 .rightQuote {
   display: flex;
   align-items: flex-end;
   margin-bottom: 35px;
+  /* right: 85px;
+  position: relative; */
 }
 
 .logos img {
@@ -589,9 +592,17 @@ footer.page-footer {
     justify-content: center;
     align-items: center;
   }
-
+  /* 
   .skillLogo img {
-    max-width: 90%;
+    max-width: 80%;
+  } */
+
+  .rubyOnRails-container img {
+    max-width: 68%;
+  }
+
+  .heroku-container {
+    margin: 0px !important;
   }
 
   /* Projects Nav */
@@ -627,9 +638,11 @@ footer.page-footer {
   }
 
   .contactNav {
-    min-height: 231px;
+    min-height: 250px;
     display: flex;
     align-items: center;
+    width: 46%;
+    margin: 0 auto;
   }
 
   .contactLinks {
