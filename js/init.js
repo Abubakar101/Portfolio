@@ -28,7 +28,7 @@ window.onload = function() {
     let projectMenu = document.querySelectorAll(".projectMenu LI");
     if (
       e.target.parentElement.parentElement.className ==
-      "right projectMenu"
+      "center projectMenu"
     ) {
       if (e.target.className === "allNav") {
         // Only selected projects

@@ -72,11 +72,11 @@ canvas {
 }
 
 .rubyOnRails-container {
-  width: 13.5% !important;
+  /* width: 13.5% !important; */
 }
 
 .jquery-container {
-  width: 14.7% !important;
+  /* width: 14.7% !important; */
 }
 
 .sql-container img {
@@ -88,7 +88,7 @@ canvas {
 }
 
 .materialize-container {
-  width: 28% !important;
+  /* width: 28% !important; */
 }
 .projectMenu li a {
   font-size: large;
@@ -198,6 +198,148 @@ p {
   }
   #index-banner .section {
     top: 10%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Navbar */
+
+  .navMenu li a {
+    font-size: x-large;
+    padding: 0px 10px 0px 10px;
+  }
+  .navMenu li {
+    padding: 0px 10px 0px 10px;
+  }
+  #home {
+    height: 50px;
+  }
+  .navContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navContainer ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* Profile */
+  #index-banner {
+    width: 96%;
+  }
+
+  .profileDiv .profile {
+    width: 25%;
+  }
+
+  .summaryContainer {
+    padding-bottom: 3rem;
+  }
+  .summaryText {
+    display: flex;
+    /* background: blue; */
+    min-height: 203px;
+  }
+
+  .summary {
+    /* background: beige; */
+    padding: 2% 0% 0% 4%;
+    display: flex;
+    align-items: center;
+    line-height: 147%;
+    font-size: x-large;
+  }
+  .summaryText .left {
+    display: flex;
+    align-items: end;
+  }
+  .summaryText .rightQuote {
+    /* background: yellow; */
+    display: flex;
+    align-items: flex-end;
+  }
+
+  /* Skills */
+  .logoTopSection,
+  .logoMiddleSection {
+    padding-bottom: 0rem;
+  }
+  .logoMiddleSection {
+    padding-top: 0rem;
+  }
+  .logoBottomSection {
+    padding-top: 0rem;
+  }
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skillLogo img {
+    max-width: 90%;
+  }
+
+  /* Projects Nav */
+  #biggerScreen {
+    display: none;
+  }
+
+  #nav-mobile {
+    display: flex !important;
+    justify-content: space-evenly;
+  }
+  #nav-mobile li a {
+    font-size: x-large;
+  }
+  .projectImageContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .projectDivs {
+    width: 64%;
+    /* background: red; */
+  }
+
+  /* Contact */
+  #biggerContactScreen {
+    display: none;
+  }
+
+  #contact-mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .contactNav {
+    min-height: 231px;
+    display: flex;
+    align-items: center;
+  }
+
+  .contactLinks {
+    width: 100% !important;
+  }
+
+  .shade {
+    background: whitesmoke;
+  }
+
+  #contact-mobile li a i {
+    display: flex;
+    align-items: center;
+  }
+
+  .form-btn {
+    width: 90%;
+    height: 70px !important;
+    font-size: x-large;
+    letter-spacing: 10px;
+    text-transform: uppercase;
   }
 }
 
