@@ -39,6 +39,10 @@ canvas {
   display: block;
 }
 
+#index-banner {
+  width: 100%;
+}
+
 .profileDiv {
   display: flex;
   justify-content: center;
@@ -49,6 +53,15 @@ canvas {
   width: 14%;
 }
 
+/* Summary */
+.summaryMainContainer{
+  min-height: 265px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .summaryText {
   display: flex;
   margin-bottom: -2.5rem;
@@ -58,11 +71,17 @@ canvas {
 }
 
 .summary {
-  position: relative;
-  top: 25%;
-  margin-bottom: 0%;
+  /* position: relative; */
+  /* top: 25%; */
+  /* margin-bottom: 0%; */
   font-family: "Gloria Hallelujah", cursive;
-  line-height: 131%;
+  line-height: 195%;
+}
+
+.rightQuote{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 35px;
 }
 
 .logos img {
@@ -70,15 +89,6 @@ canvas {
   max-width: 100%;
   padding: 10px;
 }
-
-.rubyOnRails-container {
-  /* width: 13.5% !important; */
-}
-
-.jquery-container {
-  /* width: 14.7% !important; */
-}
-
 .sql-container img {
   width: 95%;
 }
@@ -87,9 +97,17 @@ canvas {
   width: 88% !important;
 }
 
-.materialize-container {
-  /* width: 28% !important; */
+.bigProjectNavContainer{
+  display: flex;
+  justify-content: center;
 }
+
+#biggerScreen{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .projectMenu li a {
   font-size: large;
 }
@@ -168,6 +186,7 @@ canvas {
   align-items: center;
 }
 
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -203,16 +222,16 @@ p {
   #index-banner .section {
     top: 10%;
   }
-
+  
   /* Navbar */
-
+  
   .navMenu li a {
     font-size: large;
     padding: 0px 10px 0px 10px;
   }
-
+  
   /* Summary */
-
+  
   .summaryContainer {
     padding-bottom: 3rem;
   }
@@ -221,7 +240,7 @@ p {
     /* background: blue; */
     min-height: 203px;
   }
-
+  
   .summary {
     /* background: beige; */
     padding: 2% 0% 0% 2%;
@@ -239,12 +258,12 @@ p {
     display: flex;
     align-items: flex-end;
   }
-
+  
   /* Skills */
   .trello-container {
     right: 170px !important;
   }
-
+  
   .logoTopSection,
   .logoMiddleSection {
     padding-bottom: 0rem;
@@ -261,16 +280,16 @@ p {
     justify-content: center;
     align-items: center;
   }
-
+  
   .skillLogo img {
     max-width: 75%;
   }
-
+  
   /* Projects */
   #biggerScreen {
     display: none;
   }
-
+  
   #nav-mobile {
     display: flex !important;
     justify-content: space-evenly;
@@ -278,26 +297,26 @@ p {
   #nav-mobile li a {
     font-size: x-large;
   }
-
+  
   .projectDivs {
     width: 45%;
     /* background: red; */
   }
-
+  
   .contactNav {
     width: 103%;
     /* min-height: 231px; */
   }
-
+  
   .contactLinks {
     width: 100% !important;
   }
-
+  
   #biggerContactScreen li a i {
     display: flex;
     align-items: center;
   }
-
+  
   .form-btn {
     width: 90%;
     height: 70px !important;
@@ -309,7 +328,7 @@ p {
 
 @media only screen and (max-width: 768px) {
   /* Navbar */
-
+  
   .navMenu li a {
     font-size: x-large;
     padding: 0px 10px 0px 10px;
@@ -330,16 +349,16 @@ p {
     display: flex;
     justify-content: space-evenly;
   }
-
+  
   /* Profile */
   #index-banner {
     width: 96%;
   }
-
+  
   .profileDiv .profile {
     width: 25%;
   }
-
+  
   .summaryContainer {
     padding-bottom: 3rem;
   }
@@ -348,7 +367,7 @@ p {
     /* background: blue; */
     min-height: 203px;
   }
-
+  
   .summary {
     /* background: beige; */
     padding: 2% 0% 0% 4%;
@@ -366,7 +385,7 @@ p {
     display: flex;
     align-items: flex-end;
   }
-
+  
   /* Skills */
   .logoTopSection,
   .logoMiddleSection {
@@ -384,16 +403,16 @@ p {
     justify-content: center;
     align-items: center;
   }
-
+  
   .skillLogo img {
     max-width: 90%;
   }
-
+  
   /* Projects Nav */
   #biggerScreen {
     display: none;
   }
-
+  
   #nav-mobile {
     display: flex !important;
     justify-content: space-evenly;
@@ -405,41 +424,41 @@ p {
     display: flex;
     flex-wrap: wrap;
   }
-
+  
   .projectDivs {
     width: 64%;
     /* background: red; */
   }
-
+  
   /* Contact */
   #biggerContactScreen {
     display: none;
   }
-
+  
   #contact-mobile {
     display: flex !important;
     flex-direction: column;
   }
-
+  
   .contactNav {
     min-height: 231px;
     display: flex;
     align-items: center;
   }
-
+  
   .contactLinks {
     width: 100% !important;
   }
-
+  
   .shade {
     background: whitesmoke;
   }
-
+  
   #contact-mobile li a i {
     display: flex;
     align-items: center;
   }
-
+  
   .form-btn {
     width: 90%;
     height: 70px !important;
@@ -470,12 +489,12 @@ p {
     display: flex;
     justify-content: space-evenly;
   }
-
+  
   /* Profile Picture */
   .profileDiv .profile {
     width: 30%;
   }
-
+  
   .summaryContainer {
     padding-bottom: 3rem;
   }
@@ -484,7 +503,7 @@ p {
     /* background: blue; */
     min-height: 203px;
   }
-
+  
   .summary {
     /* background: beige; */
     padding: 2% 0% 0% 4%;
@@ -500,8 +519,9 @@ p {
     /* background: yellow; */
     display: flex;
     align-items: flex-end;
+    margin-bottom: 18px;
   }
-
+  
   /* Skills */
   .logoTopSection,
   .logoMiddleSection {
@@ -519,29 +539,44 @@ p {
     justify-content: center;
     align-items: center;
   }
-
+  
   .skillLogo {
     width: 32%;
   }
-
+  
+  .projectTracking{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .projectTracking .trello-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: -95px;
+  }
+  .projectTracking .jira-container{
+    margin-left: 75px;
+  }
+  
   /* Parallax */
   .kidsPhoto {
     left: 30% !important;
     bottom: -57px !important;
   }
-
+  
   /* Projects Nav */
   #biggerScreen {
     display: none;
   }
-
+  
   #nav-mobile {
     display: flex !important;
   }
   #nav-mobile li a {
-    font-size: inherit;
+    font-size: large;
   }
-
+  
   /* Projects */
   .projectImageContainer {
     display: flex;
@@ -549,47 +584,59 @@ p {
     align-items: center;
     flex-direction: column;
   }
-
+  
   .projectDivs {
     width: 100%;
   }
-
+  
   /* Contact */
   #biggerContactScreen {
     display: none;
   }
-
+  
   #contact-mobile {
     display: flex !important;
     flex-direction: column;
   }
-
+  
   .contactNav {
     min-height: 231px;
     display: flex;
     align-items: center;
   }
-
+  
   .contactLinks {
     width: 100% !important;
   }
-
+  
   .shade {
     background: whitesmoke;
   }
-
+  
   #contact-mobile li a i {
     display: flex;
     align-items: center;
   }
-
+  
   .form-btn {
-    width: 90%;
+    width: 90% !important;
     height: 70px !important;
     font-size: x-large;
     letter-spacing: 10px;
     text-transform: uppercase;
   }
+}
+
+
+/* contact */
+.contactNav{
+  display: flex;
+  justify-content: center;
+}
+
+#biggerContactScreen li a i{
+  display: flex;
+  align-items: center;
 }
 
 #git,
@@ -609,8 +656,10 @@ p {
   width: 86%;
 }
 
-.formContainer .form-btn {
-  height: 35px;
+.form-btn {
+  height: 65px;
+  width: 20%;
+  font-size: x-large;
   border-radius: 5px;
   border: 1px dotted #009688;
   cursor: pointer;
