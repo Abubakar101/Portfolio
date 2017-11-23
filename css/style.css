@@ -191,13 +191,119 @@ p {
   width: 100%;
 }
 
+/* Responsive Design */
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+  #index-banner {
+    width: 100%;
+  }
   #index-banner .section {
     top: 10%;
+  }
+
+  /* Navbar */
+
+  .navMenu li a {
+    font-size: large;
+    padding: 0px 10px 0px 10px;
+  }
+
+  /* Summary */
+
+  .summaryContainer {
+    padding-bottom: 3rem;
+  }
+  .summaryText {
+    display: flex;
+    /* background: blue; */
+    min-height: 203px;
+  }
+
+  .summary {
+    /* background: beige; */
+    padding: 2% 0% 0% 2%;
+    display: flex;
+    align-items: center;
+    line-height: 147%;
+    font-size: x-large;
+  }
+  .summaryText .left {
+    display: flex;
+    align-items: end;
+  }
+  .summaryText .rightQuote {
+    /* background: yellow; */
+    display: flex;
+    align-items: flex-end;
+  }
+
+  /* Skills */
+  .trello-container {
+    right: 170px !important;
+  }
+
+  .logoTopSection,
+  .logoMiddleSection {
+    padding-bottom: 0rem;
+  }
+  .logoMiddleSection {
+    padding-top: 0rem;
+  }
+  .logoBottomSection {
+    padding-top: 0rem;
+  }
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skillLogo img {
+    max-width: 75%;
+  }
+
+  /* Projects */
+  #biggerScreen {
+    display: none;
+  }
+
+  #nav-mobile {
+    display: flex !important;
+    justify-content: space-evenly;
+  }
+  #nav-mobile li a {
+    font-size: x-large;
+  }
+
+  .projectDivs {
+    width: 45%;
+    /* background: red; */
+  }
+
+  .contactNav {
+    width: 103%;
+    /* min-height: 231px; */
+  }
+
+  .contactLinks {
+    width: 100% !important;
+  }
+
+  #biggerContactScreen li a i {
+    display: flex;
+    align-items: center;
+  }
+
+  .form-btn {
+    width: 90%;
+    height: 70px !important;
+    font-size: x-large;
+    letter-spacing: 10px;
+    text-transform: uppercase;
   }
 }
 
