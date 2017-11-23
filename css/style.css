@@ -89,12 +89,30 @@ canvas {
   max-width: 100%;
   padding: 10px;
 }
+
+.rubyOnRails-container img{
+  width: 82%;
+}
+.jquery-container{
+  margin-left: -20px !important;
+  width: 87%;
+}
+.jquery-container img{
+  width: 87%;
+}
 .sql-container img {
   width: 95%;
 }
 
 .css-container img {
   width: 88% !important;
+}
+
+.materialize-container{
+  margin-left: -25px !important;
+}
+.materialize-container img{
+  width: 84%;
 }
 
 .bigProjectNavContainer{
