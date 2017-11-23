@@ -825,3 +825,43 @@ footer.page-footer {
     text-transform: uppercase;
   }
 }
+@media only screen and (max-width: 425px) {
+  /* Navbar */
+
+  .navMenu li a{
+    font-size: medium;
+  }
+
+
+  .summaryMainContainer{
+    margin: 0px;
+  }
+  /* .ruby-container{
+    margin-left: -20px;
+  }
+
+  .rubyOnRails-container{
+    margin-right: -6px;
+  } */
+
+  .materialize-container{
+    width: 45%;
+  }
+
+  .trello-container{
+    display: block;
+  }
+
+  .projectDivs {
+    width: 85%;
+  }
+
+  #nav-mobile li a {
+    font-size: medium;
+  }
+
+  .contactNav {
+    width: 79%;
+  }
+  
+}
