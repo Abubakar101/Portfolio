@@ -54,13 +54,12 @@ canvas {
 }
 
 /* Summary */
-.summaryMainContainer{
+.summaryMainContainer {
   min-height: 265px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 .summaryText {
   display: flex;
@@ -76,12 +75,15 @@ canvas {
   /* margin-bottom: 0%; */
   font-family: "Gloria Hallelujah", cursive;
   line-height: 195%;
+  padding-left: 20px;
 }
 
-.rightQuote{
+.rightQuote {
   display: flex;
   align-items: flex-end;
   margin-bottom: 35px;
+  /* right: 85px;
+  position: relative; */
 }
 
 .logos img {
@@ -90,14 +92,14 @@ canvas {
   padding: 10px;
 }
 
-.rubyOnRails-container img{
+.rubyOnRails-container img {
   width: 82%;
 }
-.jquery-container{
+.jquery-container {
   margin-left: -20px !important;
   width: 87%;
 }
-.jquery-container img{
+.jquery-container img {
   width: 87%;
 }
 .sql-container img {
@@ -108,19 +110,19 @@ canvas {
   width: 88% !important;
 }
 
-.materialize-container{
+.materialize-container {
   margin-left: -25px !important;
 }
-.materialize-container img{
+.materialize-container img {
   width: 84%;
 }
 
-.bigProjectNavContainer{
+.bigProjectNavContainer {
   display: flex;
   justify-content: center;
 }
 
-#biggerScreen{
+#biggerScreen {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -204,7 +206,6 @@ canvas {
   align-items: center;
 }
 
-
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -228,431 +229,13 @@ p {
   width: 100%;
 }
 
-/* Responsive Design */
-@media only screen and (max-width: 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner {
-    width: 100%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-  
-  /* Navbar */
-  
-  .navMenu li a {
-    font-size: large;
-    padding: 0px 10px 0px 10px;
-  }
-  
-  /* Summary */
-  
-  .summaryContainer {
-    padding-bottom: 3rem;
-  }
-  .summaryText {
-    display: flex;
-    /* background: blue; */
-    min-height: 203px;
-  }
-  
-  .summary {
-    /* background: beige; */
-    padding: 2% 0% 0% 2%;
-    display: flex;
-    align-items: center;
-    line-height: 147%;
-    font-size: x-large;
-  }
-  .summaryText .left {
-    display: flex;
-    align-items: end;
-  }
-  .summaryText .rightQuote {
-    /* background: yellow; */
-    display: flex;
-    align-items: flex-end;
-  }
-  
-  /* Skills */
-  .trello-container {
-    right: 170px !important;
-  }
-  
-  .logoTopSection,
-  .logoMiddleSection {
-    padding-bottom: 0rem;
-  }
-  .logoMiddleSection {
-    padding-top: 0rem;
-  }
-  .logoBottomSection {
-    padding-top: 0rem;
-  }
-  .logos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .skillLogo img {
-    max-width: 75%;
-  }
-  
-  /* Projects */
-  #biggerScreen {
-    display: none;
-  }
-  
-  #nav-mobile {
-    display: flex !important;
-    justify-content: space-evenly;
-  }
-  #nav-mobile li a {
-    font-size: x-large;
-  }
-  
-  .projectDivs {
-    width: 45%;
-    /* background: red; */
-  }
-  
-  .contactNav {
-    width: 103%;
-    /* min-height: 231px; */
-  }
-  
-  .contactLinks {
-    width: 100% !important;
-  }
-  
-  #biggerContactScreen li a i {
-    display: flex;
-    align-items: center;
-  }
-  
-  .form-btn {
-    width: 90%;
-    height: 70px !important;
-    font-size: x-large;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  /* Navbar */
-  
-  .navMenu li a {
-    font-size: x-large;
-    padding: 0px 10px 0px 10px;
-  }
-  .navMenu li {
-    padding: 0px 10px 0px 10px;
-  }
-  #home {
-    height: 50px;
-  }
-  .navContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .navContainer ul {
-    width: 40%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  /* Profile */
-  #index-banner {
-    width: 96%;
-  }
-  
-  .profileDiv .profile {
-    width: 25%;
-  }
-  
-  .summaryContainer {
-    padding-bottom: 3rem;
-  }
-  .summaryText {
-    display: flex;
-    /* background: blue; */
-    min-height: 203px;
-  }
-  
-  .summary {
-    /* background: beige; */
-    padding: 2% 0% 0% 4%;
-    display: flex;
-    align-items: center;
-    line-height: 147%;
-    font-size: x-large;
-  }
-  .summaryText .left {
-    display: flex;
-    align-items: end;
-  }
-  .summaryText .rightQuote {
-    /* background: yellow; */
-    display: flex;
-    align-items: flex-end;
-  }
-  
-  /* Skills */
-  .logoTopSection,
-  .logoMiddleSection {
-    padding-bottom: 0rem;
-  }
-  .logoMiddleSection {
-    padding-top: 0rem;
-  }
-  .logoBottomSection {
-    padding-top: 0rem;
-  }
-  .logos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .skillLogo img {
-    max-width: 90%;
-  }
-  
-  /* Projects Nav */
-  #biggerScreen {
-    display: none;
-  }
-  
-  #nav-mobile {
-    display: flex !important;
-    justify-content: space-evenly;
-  }
-  #nav-mobile li a {
-    font-size: x-large;
-  }
-  .projectImageContainer {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .projectDivs {
-    width: 64%;
-    /* background: red; */
-  }
-  
-  /* Contact */
-  #biggerContactScreen {
-    display: none;
-  }
-  
-  #contact-mobile {
-    display: flex !important;
-    flex-direction: column;
-  }
-  
-  .contactNav {
-    min-height: 231px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .contactLinks {
-    width: 100% !important;
-  }
-  
-  .shade {
-    background: whitesmoke;
-  }
-  
-  #contact-mobile li a i {
-    display: flex;
-    align-items: center;
-  }
-  
-  .form-btn {
-    width: 90%;
-    height: 70px !important;
-    font-size: x-large;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  /* Navbar */
-  #home {
-    height: 50px;
-  }
-  .navContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .navContainer ul {
-    width: 40%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  /* Profile Picture */
-  .profileDiv .profile {
-    width: 30%;
-  }
-  
-  .summaryContainer {
-    padding-bottom: 3rem;
-  }
-  .summaryText {
-    display: flex;
-    /* background: blue; */
-    min-height: 203px;
-  }
-  
-  .summary {
-    /* background: beige; */
-    padding: 2% 0% 0% 4%;
-    display: flex;
-    align-items: center;
-    line-height: 146%;
-  }
-  .summaryText .left {
-    display: flex;
-    align-items: end;
-  }
-  .summaryText .rightQuote {
-    /* background: yellow; */
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 18px;
-  }
-  
-  /* Skills */
-  .logoTopSection,
-  .logoMiddleSection {
-    padding-bottom: 0rem;
-  }
-  .logoMiddleSection {
-    padding-top: 0rem;
-  }
-  .logoBottomSection {
-    padding-top: 0rem;
-  }
-  .logos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .skillLogo {
-    width: 32%;
-  }
-  
-  .projectTracking{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .projectTracking .trello-container{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: -95px;
-  }
-  .projectTracking .jira-container{
-    margin-left: 75px;
-  }
-  
-  /* Parallax */
-  .kidsPhoto {
-    left: 30% !important;
-    bottom: -57px !important;
-  }
-  
-  /* Projects Nav */
-  #biggerScreen {
-    display: none;
-  }
-  
-  #nav-mobile {
-    display: flex !important;
-  }
-  #nav-mobile li a {
-    font-size: large;
-  }
-  
-  /* Projects */
-  .projectImageContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .projectDivs {
-    width: 100%;
-  }
-  
-  /* Contact */
-  #biggerContactScreen {
-    display: none;
-  }
-  
-  #contact-mobile {
-    display: flex !important;
-    flex-direction: column;
-  }
-  
-  .contactNav {
-    min-height: 231px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .contactLinks {
-    width: 100% !important;
-  }
-  
-  .shade {
-    background: whitesmoke;
-  }
-  
-  #contact-mobile li a i {
-    display: flex;
-    align-items: center;
-  }
-  
-  .form-btn {
-    width: 90% !important;
-    height: 70px !important;
-    font-size: x-large;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-  }
-}
-
-
 /* contact */
-.contactNav{
+.contactNav {
   display: flex;
   justify-content: center;
 }
 
-#biggerContactScreen li a i{
+#biggerContactScreen li a i {
   display: flex;
   align-items: center;
 }
@@ -700,4 +283,633 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 1024px) {
+  .navMenu li a {
+    font-size: 14px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  #nameTop,
+  h1 {
+    font-size: 40px;
+  }
+  .subTitle {
+    font-size: 18px;
+  }
+
+  .profileDiv img {
+    width: 13%;
+  }
+  /* Summary */
+  .summaryMainContainer {
+    width: 94%;
+    min-height: 160px;
+  }
+  .summaryText {
+    display: flex;
+    /* min-height: 203px; */
+    margin-left: 55px;
+  }
+
+  .summary {
+    /* width: 85%; */
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    line-height: 160%;
+    font-size: 20px;
+  }
+  .summaryText .left {
+    display: flex;
+    align-items: end;
+  }
+  .summaryText .rightQuote {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    right: 85px;
+    position: relative;
+  }
+
+  .parallax-container {
+    min-height: 300px;
+  }
+  .logoTopSection,
+  .logoMiddleSection {
+    padding-bottom: 0rem;
+  }
+  .logoMiddleSection {
+    padding-top: 0rem;
+  }
+  .logoBottomSection {
+    padding-top: 0rem;
+  }
+
+  /* Projects */
+  .bigProjectNavContainer {
+    width: 90%;
+  }
+
+  #biggerScreen {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projectMenu li a {
+    font-size: 14px;
+  }
+  .projectDivs {
+    width: 30%;
+    min-height: 350px;
+  }
+
+  .projectDivs:hover .projectText {
+    min-height: 350px;
+    padding: 0px 0px 0px 5px;
+  }
+
+  .projectText h4 {
+    font-size: 2rem;
+  }
+  /* .projectText p{
+  font-size: 1rem;
+  } */
+  /* Contacts */
+  .contactNav {
+    width: 110%;
+  }
+
+  .contactLinks {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  #biggerContactScreen li a {
+    font-size: inherit;
+  }
+
+  .form-btn {
+    width: 100% !important;
+    height: 60px !important;
+    font-size: x-large;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  /* #index-banner {
+    width: 100%;
+  } */
+  #index-banner .section {
+    top: 10%;
+  }
+
+  /* Navbar */
+
+  .navMenu li a {
+    font-size: large;
+    padding: 0px 10px 0px 10px;
+  }
+
+  /* Summary */
+
+  .summaryContainer {
+    padding-bottom: 3rem;
+  }
+  .summaryText {
+    display: flex;
+    /* background: blue; */
+    min-height: 203px;
+  }
+
+  .summary {
+    /* background: beige; */
+    padding: 2% 0% 0% 2%;
+    display: flex;
+    align-items: center;
+    line-height: 147%;
+    font-size: x-large;
+  }
+  .summaryText .left {
+    display: flex;
+    align-items: end;
+  }
+  .summaryText .rightQuote {
+    /* background: yellow; */
+    display: flex;
+    align-items: flex-end;
+  }
+
+  /* Skills */
+  .trello-container {
+    right: 170px !important;
+  }
+
+  .logoTopSection,
+  .logoMiddleSection {
+    padding-bottom: 0rem;
+  }
+  .logoMiddleSection {
+    padding-top: 0rem;
+  }
+  .logoBottomSection {
+    padding-top: 0rem;
+  }
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skillLogo img {
+    max-width: 75%;
+  }
+
+  /* Projects */
+  #biggerScreen {
+    display: none;
+  }
+
+  #nav-mobile {
+    display: flex !important;
+    justify-content: space-evenly;
+  }
+  #nav-mobile li a {
+    font-size: x-large;
+  }
+
+  .projectDivs {
+    width: 45%;
+    /* background: red; */
+  }
+
+  .contactNav {
+    width: 103%;
+    /* min-height: 231px; */
+  }
+
+  .contactLinks {
+    width: 100% !important;
+  }
+
+  #biggerContactScreen li a i {
+    display: flex;
+    align-items: center;
+  }
+
+  .form-btn {
+    width: 90%;
+    height: 70px !important;
+    font-size: x-large;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Navbar */
+
+  .navMenu li a {
+    font-size: x-large;
+    padding: 0px 10px 0px 10px;
+  }
+  .navMenu li {
+    padding: 0px 10px 0px 10px;
+  }
+  #home {
+    height: 50px;
+  }
+  .navContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navContainer ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* Profile */
+  /* #index-banner {
+    width: 96%;
+  } */
+
+  .profileDiv .profile {
+    width: 25%;
+  }
+
+  .summaryContainer {
+    padding-bottom: 3rem;
+  }
+  .summaryText {
+    display: flex;
+    /* background: blue; */
+    min-height: 203px;
+  }
+
+  .summary {
+    /* background: beige; */
+    padding: 2% 0% 0% 4%;
+    display: flex;
+    align-items: center;
+    line-height: 147%;
+    font-size: x-large;
+  }
+  .summaryText .left {
+    display: flex;
+    align-items: end;
+  }
+  .summaryText .rightQuote {
+    /* background: yellow; */
+    display: flex;
+    align-items: flex-end;
+  }
+
+  /* Skills */
+  .logoTopSection,
+  .logoMiddleSection {
+    padding-bottom: 0rem;
+  }
+  .logoMiddleSection {
+    padding-top: 0rem;
+  }
+  .logoBottomSection {
+    padding-top: 0rem;
+  }
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  /* 
+  .skillLogo img {
+    max-width: 80%;
+  } */
+
+  .rubyOnRails-container img {
+    max-width: 68%;
+  }
+
+  .heroku-container {
+    margin: 0px !important;
+  }
+
+  /* Projects Nav */
+  #biggerScreen {
+    display: none;
+  }
+
+  #nav-mobile {
+    display: flex !important;
+    justify-content: space-evenly;
+  }
+  #nav-mobile li a {
+    font-size: x-large;
+  }
+  .projectImageContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .projectDivs {
+    width: 64%;
+    /* background: red; */
+  }
+
+  /* Contact */
+  #biggerContactScreen {
+    display: none;
+  }
+
+  #contact-mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .contactNav {
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    width: 46%;
+    margin: 0 auto;
+  }
+
+  .contactLinks {
+    width: 100% !important;
+  }
+
+  .shade {
+    background: whitesmoke;
+  }
+
+  #contact-mobile li a i {
+    display: flex;
+    align-items: center;
+  }
+
+  .form-btn {
+    width: 90%;
+    height: 70px !important;
+    font-size: x-large;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Navbar */
+  #home {
+    height: 50px;
+  }
+  .navContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navContainer ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* Profile Picture */
+  .profileDiv .profile {
+    width: 30%;
+  }
+
+  .summaryContainer {
+    padding-bottom: 3rem;
+  }
+  .summaryText {
+    display: flex;
+    /* background: blue; */
+    min-height: 203px;
+  }
+
+  .summary {
+    /* background: beige; */
+    padding: 2% 0% 0% 4%;
+    display: flex;
+    align-items: center;
+    line-height: 146%;
+  }
+  .summaryText .left {
+    display: flex;
+    align-items: end;
+  }
+  .summaryText .rightQuote {
+    /* background: yellow; */
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 18px;
+  }
+
+  /* Skills */
+  .logoTopSection,
+  .logoMiddleSection {
+    padding-bottom: 0rem;
+  }
+  .logoMiddleSection {
+    padding-top: 0rem;
+  }
+  .logoBottomSection {
+    padding-top: 0rem;
+  }
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skillLogo {
+    width: 32%;
+  }
+
+  .projectTracking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .projectTracking .trello-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: -95px;
+  }
+  .projectTracking .jira-container {
+    margin-left: 75px;
+  }
+
+  /* Parallax */
+  .kidsPhoto {
+    left: 30% !important;
+    bottom: -57px !important;
+  }
+
+  /* Projects Nav */
+  #biggerScreen {
+    display: none;
+  }
+
+  #nav-mobile {
+    display: flex !important;
+  }
+  #nav-mobile li a {
+    font-size: large;
+  }
+
+  /* Projects */
+  .projectImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .projectDivs {
+    width: 100%;
+  }
+
+  /* Contact */
+  #biggerContactScreen {
+    display: none;
+  }
+
+  #contact-mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .contactNav {
+    min-height: 231px;
+    display: flex;
+    align-items: center;
+  }
+
+  .contactLinks {
+    width: 100% !important;
+  }
+
+  .shade {
+    background: whitesmoke;
+  }
+
+  #contact-mobile li a i {
+    display: flex;
+    align-items: center;
+  }
+
+  .form-btn {
+    width: 90% !important;
+    height: 70px !important;
+    font-size: x-large;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* Navbar */
+
+  .navMenu li a {
+    font-size: medium;
+  }
+  .summaryMainContainer {
+    margin: 0px;
+  }
+  .materialize-container {
+    width: 45%;
+  }
+
+  /* Skills Logos */
+  .trello-container {
+    display: block;
+  }
+
+  .projectDivs {
+    width: 85%;
+  }
+
+  /* Contacts */
+  #nav-mobile li a {
+    font-size: medium;
+  }
+
+  .contactNav {
+    width: 79%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* Navbar */
+  .navMenu li a {
+    font-size: small;
+  }
+
+  .navbar-fixed .navMenu li a {
+    font-size: medium;
+  }
+  /* Summary */
+
+  .rightQuote {
+    right: 47px !important;
+    position: relative;
+  }
+
+  /* Skills Logos */
+
+  .rubyOnRails-container {
+    margin: 0px !important;
+  }
+
+  .jira-container {
+    margin: 0px !important;
+  }
+  .trello-container {
+    margin-right: -145px !important;
+    display: block;
+  }
+  .contactNav {
+    width: 91%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* Navbar */
+  .navMenu li {
+    padding: 0px 3px 0px 3px;
+}
+
+  .navMenu li a {
+    font-size: medium;
+  } 
+
+  /* Projects */
+  
+  #nav-mobile li a {
+    padding: 0px 9px;
+  }
+.contactNav {
+    width: 100%;
+}
+#contact-mobile {
+  width: 100%;
+}
 }
