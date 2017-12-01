@@ -238,6 +238,7 @@ p {
 #biggerContactScreen li a i {
   display: flex;
   align-items: center;
+  padding: 2px;
 }
 
 #git,
@@ -254,7 +255,7 @@ p {
 }
 
 .contactLinks {
-  width: 86%;
+  width: 95%;
 }
 
 .form-btn {
@@ -286,6 +287,19 @@ footer.page-footer {
 }
 
 /* Responsive Design */
+@media only screen and (max-width: 1322px) {
+  .contactNav  {
+    /* width: 103% !important; */
+
+  }
+  .contactLinks {
+    /* width: 100% ; */
+  }
+
+  #biggerContactScreen li a{
+    font-size: medium;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .navMenu li a {
     font-size: 14px;
@@ -517,7 +531,6 @@ footer.page-footer {
 
 @media only screen and (max-width: 768px) {
   /* Navbar */
-
   .navMenu li a {
     font-size: x-large;
     padding: 0px 10px 0px 10px;
@@ -891,25 +904,23 @@ footer.page-footer {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 320px) {
   /* Navbar */
   .navMenu li {
     padding: 0px 3px 0px 3px;
-}
-
+  }
   .navMenu li a {
     font-size: medium;
-  } 
+  }
 
   /* Projects */
-  
   #nav-mobile li a {
     padding: 0px 9px;
   }
-.contactNav {
+  .contactNav {
     width: 100%;
-}
-#contact-mobile {
-  width: 100%;
-}
+  }
+  #contact-mobile {
+    width: 100%;
+  }
 }
