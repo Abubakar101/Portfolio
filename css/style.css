@@ -288,14 +288,6 @@ footer.page-footer {
 
 /* Responsive Design */
 @media only screen and (max-width: 1322px) {
-  .contactNav  {
-    /* width: 103% !important; */
-
-  }
-  .contactLinks {
-    /* width: 100% ; */
-  }
-
   #biggerContactScreen li a{
     font-size: medium;
   }
